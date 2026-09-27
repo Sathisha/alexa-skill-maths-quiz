@@ -47,6 +47,11 @@ START_SAMPLES = [
     "class {grade} {subject} {topic}", "class {grade} {subject} on {topic}",
     "class {grade} {subject} chapter {topic}", "quiz me on class {grade} {subject} {topic}",
     "{grade} class {subject} {topic}", "{topic} for class {grade} {subject}",
+    "start quiz on {subject}", "start a quiz on {subject}", "start quiz for {subject}",
+    "start a quiz for {subject}", "quiz on {subject}", "start {subject} quiz",
+    "start quiz on {topic}", "start quiz for {topic}", "quiz on {topic}",
+    "start quiz on class {grade} {subject}", "start a quiz for class {grade} {subject}",
+    "start quiz for class {grade} {subject}", "quiz on class {grade} {subject}",
 ]
 
 ANSWER_SAMPLES = [
