@@ -31,6 +31,15 @@ if %errorlevel%==0 (
     echo Python not found, skipping question bank checks.
 )
 
+rem master deploys to the development stage (the Test tab); prod is the
+rem live stage and must not be pushed to directly.
+for /f %%b in ('git -C "%HOSTED%" rev-parse --abbrev-ref HEAD') do set "BRANCH=%%b"
+if /i not "%BRANCH%"=="master" (
+    echo Hosted repo is on branch "%BRANCH%", expected master.
+    echo Run:  git -C "%HOSTED%" checkout master
+    exit /b 1
+)
+
 echo === Copying code and interaction model
 robocopy "%SRC%lambda" "%HOSTED%\lambda" /E /XD __pycache__ /NFL /NDL /NJH /NJS /NP
 if errorlevel 8 goto :fail
@@ -46,7 +55,7 @@ if %errorlevel%==0 (
     exit /b 0
 )
 git -C "%HOSTED%" commit -q -m "Deploy Exam Buddy %REV%" || goto :fail
-git -C "%HOSTED%" push || goto :fail
+git -C "%HOSTED%" push origin master || goto :fail
 
 echo.
 echo Pushed. Deployment and model build take a minute or two;
