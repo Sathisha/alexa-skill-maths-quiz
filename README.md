@@ -117,6 +117,7 @@ scripts/
   validate_bank.py          question bank checks
   build.py                  generates the interaction model and QUESTION_BANK.md
   play.py                   play the quiz in a terminal
+deploy.bat                  copy to the Alexa-hosted repo and push (Windows)
 tests/                      pytest: bank, engine flows, full Alexa request/response
 ```
 
@@ -182,16 +183,24 @@ ask configure                                    # sign in with your Amazon deve
 ask init --hosted-skill-id amzn1.ask.skill.xxxx  # clones the hosted repo into a new folder
 ```
 
-Copy this repo's `lambda/` and `skill-package/interactionModels/` into that
-folder. Keep the hosted repo's own `skill.json`, which holds the managed Lambda
-endpoint, and copy across the `publishingInformation` text only. Then run:
+Name the folder `exam-buddy-hosted` and create it next to this repo's clone.
+Then, on Windows, deploy with:
 
-```bash
-git add -A && git commit -m "Update Exam Buddy" && git push
+```bat
+deploy.bat                       REM or: deploy.bat C:\path\to\hosted-repo
 ```
 
-Pushing to the hosted repo's `master` branch builds the model and deploys the
-code to the development stage. GitHub (this repo) stays the source of truth;
+The script does the following:
+
+1. Pulls the latest code from GitHub.
+2. Validates the question bank, if Python is installed.
+3. Copies `lambda\` and `skill-package\interactionModels\` into the hosted repo.
+4. Commits and pushes. The push builds the model and deploys the code to the
+   development stage.
+
+It leaves the hosted repo's own `skill.json` alone, because that file holds the
+managed Lambda endpoint. Copy the `publishingInformation` text across by hand
+if you want it. GitHub (this repo) stays the source of truth;
 the hosted repo is just the deployment target.
 
 ## Notes before publishing
