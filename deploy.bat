@@ -6,12 +6,12 @@ rem (cloned once with "ask init --hosted-skill-id ...") and pushes it,
 rem which deploys the code and builds the voice model.
 rem
 rem Usage:  deploy.bat [path-to-hosted-repo]
-rem         default path: ..\exam-buddy-hosted
+rem         default path: ..\ExamBuddy
 
 setlocal
 set "SRC=%~dp0"
 set "HOSTED=%~1"
-if "%HOSTED%"=="" set "HOSTED=%SRC%..\exam-buddy-hosted"
+if "%HOSTED%"=="" set "HOSTED=%SRC%..\ExamBuddy"
 
 if not exist "%HOSTED%\.git" (
     echo Hosted skill repo not found at "%HOSTED%".

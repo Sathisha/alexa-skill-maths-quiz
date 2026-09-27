@@ -183,7 +183,7 @@ ask configure                                    # sign in with your Amazon deve
 ask init --hosted-skill-id amzn1.ask.skill.xxxx  # clones the hosted repo into a new folder
 ```
 
-Name the folder `exam-buddy-hosted` and create it next to this repo's clone.
+Name the folder `ExamBuddy` and create it next to this repo's clone.
 Then, on Windows, deploy with:
 
 ```bat
