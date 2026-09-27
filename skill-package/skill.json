@@ -4,18 +4,32 @@
       "locales": {
         "en-IN": {
           "name": "Exam Buddy",
-          "summary": "Multiple choice practice quizzes for I C S E class 9 and 10 maths and science.",
-          "description": "Exam Buddy quizzes you on the I C S E class 9 and 10 syllabus in maths, physics, chemistry and biology. Pick a class and subject, and optionally a chapter. Alexa reads five multiple choice questions, you answer with A, B, C or D, and after each answer you hear whether you were right and a short explanation. You get your score at the end of every round.",
+          "summary": "Quick spoken multiple choice quizzes for ICSE class 9 and 10 maths and science.",
+          "description": "Exam Buddy helps ICSE class 9 and class 10 students revise Maths, Physics, Chemistry and Biology with quick spoken multiple choice quizzes.\n\nHow to use it:\n1. Say \"Alexa, open Exam Buddy\".\n2. Tell Alexa your class and subject, for example \"class 10 physics\". You can also name a chapter, like \"class 9 maths, trigonometry\", or say \"class 10 science\" for a mix of physics, chemistry and biology.\n3. Alexa asks five questions, each with four options. Answer with the letter: A, B, C or D.\n4. After each answer, Alexa tells you if you were right and gives a short explanation. You hear your score at the end of every round.\n\nDuring a quiz you can say \"repeat\" to hear the question again, \"skip\" to move on, or \"help\". To see what is available, ask \"what chapters are there in class 10 chemistry\". At the end of a round, say \"yes\" to play again, name a different subject or chapter, or say \"stop\".\n\nCovers 58 chapters with 290 questions, including algebra, geometry, trigonometry, commercial maths, statistics and probability in maths, and core chapters of the physics, chemistry and biology syllabus.\n\nRequirements: No account, account linking or purchase is needed. Works on any Alexa-enabled device; a screen is not required. Scores are not saved between sessions.\n\nDisclaimer: Exam Buddy is an independent study aid. It is not affiliated with, endorsed by or sponsored by the Council for the Indian School Certificate Examinations (CISCE). Questions are for practice only; refer to your textbooks and teachers for the official syllabus and exam guidance.",
           "examplePhrases": [
             "Alexa, open exam buddy",
             "Alexa, ask exam buddy to quiz me on class ten physics",
             "Alexa, ask exam buddy for class nine maths trigonometry"
           ],
-          "keywords": ["ICSE", "quiz", "maths", "science", "physics", "chemistry", "biology", "class 10", "class 9", "exam"]
+          "keywords": [
+            "ICSE",
+            "quiz",
+            "maths",
+            "science",
+            "physics",
+            "chemistry",
+            "biology",
+            "class 10",
+            "class 9",
+            "exam"
+          ],
+          "updatesDescription": "First release: quizzes for ICSE class 9 and 10 maths, physics, chemistry and biology."
         }
       },
       "isAvailableWorldwide": false,
-      "distributionCountries": ["IN"],
+      "distributionCountries": [
+        "IN"
+      ],
       "category": "EDUCATION_AND_REFERENCE",
       "distributionMode": "PUBLIC",
       "testingInstructions": "Say 'open exam buddy', then a class and subject such as 'class 10 physics' or 'class 9 maths trigonometry'. Answer each question with A, B, C or D. Say 'repeat', 'skip', 'help' or 'what chapters are there in class 10 chemistry' at any time."
