@@ -1,0 +1,323 @@
+{
+  "grade": 9,
+  "subject": "physics",
+  "topics": [
+    {
+      "key": "motion",
+      "name": "Motion in One Dimension",
+      "synonyms": [
+        "motion",
+        "speed and velocity",
+        "acceleration",
+        "equations of motion",
+        "velocity"
+      ],
+      "questions": [
+        {
+          "question": "The slope of a distance-time graph gives the:",
+          "answer": "speed",
+          "distractors": [
+            "acceleration",
+            "displacement",
+            "force"
+          ],
+          "explanation": "Slope is distance divided by time, which is speed."
+        },
+        {
+          "question": "A car starts from rest and reaches 20 metres per second in 5 seconds. What is its acceleration?",
+          "answer": "4 metres per second squared",
+          "distractors": [
+            "100 metres per second squared",
+            "0.25 metres per second squared",
+            "15 metres per second squared"
+          ],
+          "explanation": "Acceleration is change in velocity over time: 20 divided by 5 is 4."
+        },
+        {
+          "question": "The area under a velocity-time graph gives the:",
+          "answer": "displacement",
+          "distractors": [
+            "acceleration",
+            "speed",
+            "force"
+          ],
+          "explanation": "Velocity multiplied by time is displacement, so the area gives displacement."
+        },
+        {
+          "question": "A body falls freely from rest. Taking g as 10 metres per second squared, what is its speed after 3 seconds?",
+          "answer": "30 metres per second",
+          "distractors": [
+            "10 metres per second",
+            "45 metres per second",
+            "90 metres per second"
+          ],
+          "explanation": "Using v equals u plus g t, v is 0 plus 10 times 3, which is 30."
+        },
+        {
+          "question": "What is the S I unit of acceleration?",
+          "answer": "metre per second squared",
+          "distractors": [
+            "metre per second",
+            "newton",
+            "metre"
+          ],
+          "explanation": "Acceleration is change in velocity per second, so metre per second, per second."
+        }
+      ]
+    },
+    {
+      "key": "laws-of-motion",
+      "name": "Laws of Motion",
+      "synonyms": [
+        "newton's laws",
+        "newtons laws of motion",
+        "force and momentum",
+        "inertia",
+        "momentum",
+        "force"
+      ],
+      "questions": [
+        {
+          "question": "The tendency of a body to resist a change in its state of rest or motion is called:",
+          "answer": "inertia",
+          "distractors": [
+            "momentum",
+            "friction",
+            "impulse"
+          ],
+          "explanation": "This is inertia, described by Newton's first law."
+        },
+        {
+          "question": "Linear momentum is the product of:",
+          "answer": "mass and velocity",
+          "distractors": [
+            "mass and acceleration",
+            "force and time",
+            "force and distance"
+          ],
+          "explanation": "Momentum p equals m v. Mass times acceleration is force."
+        },
+        {
+          "question": "A force of 10 newtons acts on a mass of 2 kilograms. What is its acceleration?",
+          "answer": "5 metres per second squared",
+          "distractors": [
+            "20 metres per second squared",
+            "0.2 metres per second squared",
+            "12 metres per second squared"
+          ],
+          "explanation": "From F equals m a, a is 10 divided by 2, which is 5."
+        },
+        {
+          "question": "The recoil of a gun when it is fired is explained by:",
+          "answer": "Newton's third law",
+          "distractors": [
+            "Newton's first law",
+            "Newton's second law",
+            "the law of gravitation"
+          ],
+          "explanation": "The bullet is pushed forward and the gun is pushed back with an equal and opposite force."
+        },
+        {
+          "question": "What is the momentum of a 5 kilogram body moving at 4 metres per second?",
+          "answer": "20 kilogram metre per second",
+          "distractors": [
+            "9 kilogram metre per second",
+            "1.25 kilogram metre per second",
+            "40 kilogram metre per second"
+          ],
+          "explanation": "Momentum is mass times velocity: 5 times 4 is 20."
+        }
+      ]
+    },
+    {
+      "key": "fluids",
+      "name": "Pressure in Fluids and Upthrust",
+      "synonyms": [
+        "fluids",
+        "pressure",
+        "upthrust",
+        "buoyancy",
+        "archimedes principle",
+        "flotation",
+        "pressure in fluids"
+      ],
+      "questions": [
+        {
+          "question": "Pressure at a point in a liquid increases with:",
+          "answer": "depth",
+          "distractors": [
+            "the area of the container",
+            "the shape of the container",
+            "the width of the container"
+          ],
+          "explanation": "Liquid pressure is h rho g, so it depends on depth, not on the container's shape."
+        },
+        {
+          "question": "According to Archimedes' principle, the upthrust on a body immersed in a fluid equals:",
+          "answer": "the weight of the fluid displaced",
+          "distractors": [
+            "the weight of the body",
+            "the volume of the body",
+            "the density of the fluid"
+          ],
+          "explanation": "The upward buoyant force equals the weight of fluid the body pushes aside."
+        },
+        {
+          "question": "A solid body floats in a liquid when its density is:",
+          "answer": "less than the density of the liquid",
+          "distractors": [
+            "greater than the density of the liquid",
+            "twice the density of the liquid",
+            "exactly zero"
+          ],
+          "explanation": "A less dense body displaces its own weight of liquid before it is fully submerged, so it floats."
+        },
+        {
+          "question": "The S I unit of pressure is the:",
+          "answer": "pascal",
+          "distractors": [
+            "newton",
+            "joule",
+            "watt"
+          ],
+          "explanation": "One pascal is one newton per square metre."
+        },
+        {
+          "question": "Why does a ship made of iron float on water?",
+          "answer": "it displaces water equal to its own weight",
+          "distractors": [
+            "iron is lighter than water",
+            "water exerts no upthrust on iron",
+            "the air above pushes it up"
+          ],
+          "explanation": "The hollow hull displaces a large volume of water, so the upthrust balances its weight."
+        }
+      ]
+    },
+    {
+      "key": "reflection-of-light",
+      "name": "Reflection of Light",
+      "synonyms": [
+        "light",
+        "reflection",
+        "plane mirror",
+        "mirrors",
+        "laws of reflection"
+      ],
+      "questions": [
+        {
+          "question": "According to the laws of reflection, the angle of incidence is:",
+          "answer": "equal to the angle of reflection",
+          "distractors": [
+            "twice the angle of reflection",
+            "half the angle of reflection",
+            "always 90 degrees"
+          ],
+          "explanation": "The angle of incidence always equals the angle of reflection."
+        },
+        {
+          "question": "The image formed by a plane mirror is:",
+          "answer": "virtual and laterally inverted",
+          "distractors": [
+            "real and inverted",
+            "real and magnified",
+            "virtual and diminished"
+          ],
+          "explanation": "A plane mirror image is virtual, upright, the same size, and laterally inverted."
+        },
+        {
+          "question": "You stand 2 metres in front of a plane mirror. How far is your image from you?",
+          "answer": "4 metres",
+          "distractors": [
+            "2 metres",
+            "1 metre",
+            "8 metres"
+          ],
+          "explanation": "The image is 2 metres behind the mirror, so it is 4 metres from you."
+        },
+        {
+          "question": "Two plane mirrors are placed at 90 degrees to each other. How many images of an object between them are formed?",
+          "answer": "3",
+          "distractors": [
+            "4",
+            "2",
+            "5"
+          ],
+          "explanation": "The number of images is 360 divided by the angle, minus 1: 4 minus 1 is 3."
+        },
+        {
+          "question": "A ray of light falls on a plane mirror along the normal. What is the angle of reflection?",
+          "answer": "0 degrees",
+          "distractors": [
+            "90 degrees",
+            "45 degrees",
+            "180 degrees"
+          ],
+          "explanation": "Along the normal the angle of incidence is 0, so the angle of reflection is 0 too."
+        }
+      ]
+    },
+    {
+      "key": "sound",
+      "name": "Sound",
+      "synonyms": [
+        "sound waves",
+        "echo",
+        "vibrations",
+        "frequency"
+      ],
+      "questions": [
+        {
+          "question": "Sound cannot travel through:",
+          "answer": "a vacuum",
+          "distractors": [
+            "water",
+            "steel",
+            "air"
+          ],
+          "explanation": "Sound needs a material medium; there are no particles to vibrate in a vacuum."
+        },
+        {
+          "question": "If the speed of sound in air is 340 metres per second, what is the minimum distance to a reflector for a distinct echo?",
+          "answer": "17 metres",
+          "distractors": [
+            "34 metres",
+            "340 metres",
+            "1.7 metres"
+          ],
+          "explanation": "An echo needs about 0.1 seconds; sound travels 34 metres in that time, there and back, so 17 metres."
+        },
+        {
+          "question": "The number of vibrations made in one second is called the:",
+          "answer": "frequency",
+          "distractors": [
+            "amplitude",
+            "wavelength",
+            "time period"
+          ],
+          "explanation": "Frequency is measured in hertz, which means vibrations per second."
+        },
+        {
+          "question": "What is the approximate range of hearing of a normal human ear?",
+          "answer": "20 hertz to 20,000 hertz",
+          "distractors": [
+            "2 hertz to 2,000 hertz",
+            "200 hertz to 200,000 hertz",
+            "20,000 hertz to 50,000 hertz"
+          ],
+          "explanation": "Humans hear roughly 20 to 20,000 hertz; above that is ultrasound."
+        },
+        {
+          "question": "Which property of a sound decides its pitch?",
+          "answer": "frequency",
+          "distractors": [
+            "amplitude",
+            "speed",
+            "loudness"
+          ],
+          "explanation": "Higher frequency gives higher pitch; amplitude decides loudness."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "grade": 10,
+  "subject": "biology",
+  "topics": [
+    {
+      "key": "genetics",
+      "name": "Genetics",
+      "synonyms": [
+        "heredity",
+        "mendel",
+        "mendel's laws",
+        "dominant and recessive",
+        "chromosomes",
+        "genes"
+      ],
+      "questions": [
+        {
+          "question": "Who is known as the father of genetics?",
+          "answer": "Gregor Mendel",
+          "distractors": [
+            "Charles Darwin",
+            "Hugo de Vries",
+            "Robert Hooke"
+          ],
+          "explanation": "Mendel worked out the laws of inheritance using pea plants."
+        },
+        {
+          "question": "How many chromosomes does a normal human body cell have?",
+          "answer": "46",
+          "distractors": [
+            "23",
+            "44",
+            "48"
+          ],
+          "explanation": "Body cells have 23 pairs, which is 46; gametes have 23."
+        },
+        {
+          "question": "Two heterozygous tall pea plants, T t, are crossed. What is the ratio of tall to dwarf offspring?",
+          "answer": "3 to 1",
+          "distractors": [
+            "1 to 1",
+            "2 to 1",
+            "all tall"
+          ],
+          "explanation": "The offspring are 1 T T, 2 T t, and 1 t t, so 3 tall to 1 dwarf."
+        },
+        {
+          "question": "The sex of a child in humans is decided by the chromosome received from the:",
+          "answer": "father",
+          "distractors": [
+            "mother",
+            "both parents equally",
+            "neither parent"
+          ],
+          "explanation": "The mother always gives an X; the father gives an X, for a girl, or a Y, for a boy."
+        },
+        {
+          "question": "An allele that shows its effect even when only one copy is present is called:",
+          "answer": "dominant",
+          "distractors": [
+            "recessive",
+            "mutant",
+            "sex-linked"
+          ],
+          "explanation": "A dominant allele masks the recessive one in a heterozygous individual."
+        }
+      ]
+    },
+    {
+      "key": "photosynthesis",
+      "name": "Photosynthesis",
+      "synonyms": [
+        "chlorophyll",
+        "light reaction",
+        "dark reaction",
+        "food production in plants"
+      ],
+      "questions": [
+        {
+          "question": "Which gas is released during photosynthesis?",
+          "answer": "oxygen",
+          "distractors": [
+            "carbon dioxide",
+            "nitrogen",
+            "hydrogen"
+          ],
+          "explanation": "Plants take in carbon dioxide and give out oxygen during photosynthesis."
+        },
+        {
+          "question": "The green pigment that traps light energy is:",
+          "answer": "chlorophyll",
+          "distractors": [
+            "haemoglobin",
+            "carotene",
+            "xanthophyll"
+          ],
+          "explanation": "Chlorophyll in the chloroplasts absorbs light; haemoglobin is in blood."
+        },
+        {
+          "question": "The oxygen released in photosynthesis comes from:",
+          "answer": "water",
+          "distractors": [
+            "carbon dioxide",
+            "glucose",
+            "chlorophyll"
+          ],
+          "explanation": "Water molecules are split in the light reaction, which is photolysis, releasing oxygen."
+        },
+        {
+          "question": "Photosynthesis in a green plant mainly takes place in the:",
+          "answer": "chloroplasts of leaf cells",
+          "distractors": [
+            "mitochondria of root cells",
+            "nucleus of stem cells",
+            "xylem vessels"
+          ],
+          "explanation": "Chloroplasts, mostly in the mesophyll cells of leaves, contain the chlorophyll."
+        },
+        {
+          "question": "Which of these is a raw material for photosynthesis?",
+          "answer": "carbon dioxide",
+          "distractors": [
+            "oxygen",
+            "glucose",
+            "starch"
+          ],
+          "explanation": "Plants use carbon dioxide and water; glucose and oxygen are the products."
+        }
+      ]
+    },
+    {
+      "key": "circulatory-system",
+      "name": "Circulatory System",
+      "synonyms": [
+        "circulation",
+        "heart",
+        "blood",
+        "blood vessels",
+        "blood circulation"
+      ],
+      "questions": [
+        {
+          "question": "Which blood vessels carry blood away from the heart?",
+          "answer": "arteries",
+          "distractors": [
+            "veins",
+            "capillaries",
+            "lymph vessels"
+          ],
+          "explanation": "Arteries carry blood away from the heart; veins bring it back."
+        },
+        {
+          "question": "What is the largest artery in the human body?",
+          "answer": "the aorta",
+          "distractors": [
+            "the pulmonary vein",
+            "the vena cava",
+            "the carotid artery"
+          ],
+          "explanation": "The aorta carries oxygenated blood from the left ventricle to the body."
+        },
+        {
+          "question": "Which blood cells help in clotting?",
+          "answer": "platelets",
+          "distractors": [
+            "red blood cells",
+            "white blood cells",
+            "plasma cells"
+          ],
+          "explanation": "Platelets, or thrombocytes, start the clotting process at a wound."
+        },
+        {
+          "question": "The pulmonary vein carries:",
+          "answer": "oxygenated blood from the lungs to the heart",
+          "distractors": [
+            "deoxygenated blood to the lungs",
+            "oxygenated blood to the body",
+            "deoxygenated blood from the body"
+          ],
+          "explanation": "It is the only vein that carries oxygenated blood."
+        },
+        {
+          "question": "How many chambers does the human heart have?",
+          "answer": "4",
+          "distractors": [
+            "2",
+            "3",
+            "5"
+          ],
+          "explanation": "The human heart has two atria and two ventricles."
+        }
+      ]
+    },
+    {
+      "key": "nervous-system",
+      "name": "Nervous System and Sense Organs",
+      "synonyms": [
+        "nervous system",
+        "brain",
+        "reflex action",
+        "neurons",
+        "sense organs",
+        "eye",
+        "ear"
+      ],
+      "questions": [
+        {
+          "question": "What is the structural and functional unit of the nervous system?",
+          "answer": "the neuron",
+          "distractors": [
+            "the nephron",
+            "the alveolus",
+            "the axon"
+          ],
+          "explanation": "A neuron is a nerve cell; the axon is only one part of it, and the nephron is in the kidney."
+        },
+        {
+          "question": "Which part of the brain controls balance and posture?",
+          "answer": "cerebellum",
+          "distractors": [
+            "cerebrum",
+            "medulla oblongata",
+            "hypothalamus"
+          ],
+          "explanation": "The cerebellum coordinates muscles and maintains balance."
+        },
+        {
+          "question": "A simple reflex action, like pulling your hand away from a hot object, is controlled by the:",
+          "answer": "spinal cord",
+          "distractors": [
+            "cerebrum",
+            "cerebellum",
+            "heart"
+          ],
+          "explanation": "The reflex arc passes through the spinal cord, so the response is very fast."
+        },
+        {
+          "question": "On which part of the eye is the image formed?",
+          "answer": "the retina",
+          "distractors": [
+            "the cornea",
+            "the iris",
+            "the lens"
+          ],
+          "explanation": "The lens focuses light on the retina, which has light-sensitive cells."
+        },
+        {
+          "question": "Which part of the brain is the seat of intelligence, memory and thinking?",
+          "answer": "cerebrum",
+          "distractors": [
+            "cerebellum",
+            "medulla oblongata",
+            "spinal cord"
+          ],
+          "explanation": "The cerebrum is the largest part of the brain and controls voluntary actions and thought."
+        }
+      ]
+    },
+    {
+      "key": "endocrine-system",
+      "name": "Endocrine System",
+      "synonyms": [
+        "hormones",
+        "endocrine glands",
+        "glands",
+        "chemical coordination"
+      ],
+      "questions": [
+        {
+          "question": "Insulin is secreted by the:",
+          "answer": "pancreas",
+          "distractors": [
+            "liver",
+            "thyroid",
+            "adrenal gland"
+          ],
+          "explanation": "The islets of Langerhans in the pancreas secrete insulin."
+        },
+        {
+          "question": "A lack of iodine in the diet can cause:",
+          "answer": "goitre",
+          "distractors": [
+            "diabetes",
+            "dwarfism",
+            "scurvy"
+          ],
+          "explanation": "The thyroid needs iodine to make thyroxine; without it, the gland swells."
+        },
+        {
+          "question": "Which gland is called the master gland?",
+          "answer": "the pituitary gland",
+          "distractors": [
+            "the thyroid gland",
+            "the adrenal gland",
+            "the pancreas"
+          ],
+          "explanation": "The pituitary controls several other endocrine glands."
+        },
+        {
+          "question": "Adrenaline is known as the hormone of:",
+          "answer": "fight or flight",
+          "distractors": [
+            "growth",
+            "sleep",
+            "digestion"
+          ],
+          "explanation": "Adrenaline prepares the body for emergencies by raising heart rate and blood sugar."
+        },
+        {
+          "question": "A lack of insulin causes:",
+          "answer": "diabetes mellitus",
+          "distractors": [
+            "goitre",
+            "dwarfism",
+            "cretinism"
+          ],
+          "explanation": "Without enough insulin, blood sugar cannot be controlled."
+        }
+      ]
+    }
+  ]
+}

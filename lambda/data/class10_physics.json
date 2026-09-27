@@ -1,0 +1,326 @@
+{
+  "grade": 10,
+  "subject": "physics",
+  "topics": [
+    {
+      "key": "work-energy-power",
+      "name": "Work, Energy and Power",
+      "synonyms": [
+        "work",
+        "energy",
+        "power",
+        "kinetic energy",
+        "potential energy",
+        "work energy and power"
+      ],
+      "questions": [
+        {
+          "question": "The S I unit of power is the:",
+          "answer": "watt",
+          "distractors": [
+            "joule",
+            "newton",
+            "pascal"
+          ],
+          "explanation": "Power is work done per second, and one watt is one joule per second."
+        },
+        {
+          "question": "What is the kinetic energy of a 2 kilogram body moving at 3 metres per second?",
+          "answer": "9 joules",
+          "distractors": [
+            "6 joules",
+            "18 joules",
+            "12 joules"
+          ],
+          "explanation": "Kinetic energy is half m v squared: half of 2 times 9 is 9 joules."
+        },
+        {
+          "question": "No work is done when the force on a body is:",
+          "answer": "perpendicular to its displacement",
+          "distractors": [
+            "along its displacement",
+            "opposite to its displacement",
+            "very large"
+          ],
+          "explanation": "Work is F s cos theta, and cos 90 degrees is 0."
+        },
+        {
+          "question": "As a body falls freely, its:",
+          "answer": "potential energy changes into kinetic energy",
+          "distractors": [
+            "kinetic energy changes into potential energy",
+            "total mechanical energy increases",
+            "potential energy stays the same"
+          ],
+          "explanation": "It loses height and gains speed, while total mechanical energy stays constant."
+        },
+        {
+          "question": "A 60 watt bulb is switched on for 10 seconds. How much energy does it use?",
+          "answer": "600 joules",
+          "distractors": [
+            "6 joules",
+            "70 joules",
+            "6,000 joules"
+          ],
+          "explanation": "Energy is power times time: 60 times 10 is 600 joules."
+        }
+      ]
+    },
+    {
+      "key": "machines",
+      "name": "Machines",
+      "synonyms": [
+        "simple machines",
+        "levers",
+        "pulleys",
+        "mechanical advantage",
+        "efficiency",
+        "lever",
+        "pulley"
+      ],
+      "questions": [
+        {
+          "question": "What is the efficiency of an ideal machine?",
+          "answer": "100 percent",
+          "distractors": [
+            "0 percent",
+            "50 percent",
+            "more than 100 percent"
+          ],
+          "explanation": "An ideal machine has no friction losses, so work output equals work input."
+        },
+        {
+          "question": "A pair of scissors is a lever of which class?",
+          "answer": "class 1",
+          "distractors": [
+            "class 2",
+            "class 3",
+            "it is not a lever"
+          ],
+          "explanation": "The fulcrum, the rivet, lies between the effort and the load, which makes it a class 1 lever."
+        },
+        {
+          "question": "Mechanical advantage is the ratio of:",
+          "answer": "load to effort",
+          "distractors": [
+            "effort to load",
+            "work output to work input",
+            "effort distance to load distance"
+          ],
+          "explanation": "M A is load over effort; work output over input is efficiency."
+        },
+        {
+          "question": "What is the ideal mechanical advantage of a single fixed pulley?",
+          "answer": "1",
+          "distractors": [
+            "2",
+            "0",
+            "4"
+          ],
+          "explanation": "A single fixed pulley only changes the direction of the effort, so M A is 1."
+        },
+        {
+          "question": "In which class of lever is the load between the fulcrum and the effort?",
+          "answer": "class 2",
+          "distractors": [
+            "class 1",
+            "class 3",
+            "all three classes"
+          ],
+          "explanation": "In a class 2 lever, like a nutcracker, the load is in the middle."
+        }
+      ]
+    },
+    {
+      "key": "refraction-and-lenses",
+      "name": "Refraction of Light and Lenses",
+      "synonyms": [
+        "refraction",
+        "lenses",
+        "refractive index",
+        "total internal reflection",
+        "convex lens",
+        "concave lens",
+        "lens"
+      ],
+      "questions": [
+        {
+          "question": "When light passes from air into glass, it bends:",
+          "answer": "towards the normal",
+          "distractors": [
+            "away from the normal",
+            "along the surface",
+            "without any change"
+          ],
+          "explanation": "Light slows down in the optically denser glass and bends towards the normal."
+        },
+        {
+          "question": "A convex lens is also called a:",
+          "answer": "converging lens",
+          "distractors": [
+            "diverging lens",
+            "plane lens",
+            "cylindrical mirror"
+          ],
+          "explanation": "A convex lens brings parallel rays together at its focus."
+        },
+        {
+          "question": "Total internal reflection happens when light travels from:",
+          "answer": "a denser to a rarer medium, above the critical angle",
+          "distractors": [
+            "a rarer to a denser medium",
+            "a denser to a rarer medium, below the critical angle",
+            "any medium into a vacuum"
+          ],
+          "explanation": "Both conditions are needed: denser to rarer, and an angle of incidence greater than the critical angle."
+        },
+        {
+          "question": "What is the power of a convex lens of focal length 0.5 metres?",
+          "answer": "plus 2 dioptres",
+          "distractors": [
+            "plus 0.5 dioptres",
+            "plus 5 dioptres",
+            "minus 2 dioptres"
+          ],
+          "explanation": "Power is 1 over focal length in metres: 1 divided by 0.5 is 2."
+        },
+        {
+          "question": "A concave lens always forms an image that is:",
+          "answer": "virtual, upright and diminished",
+          "distractors": [
+            "real and inverted",
+            "virtual and magnified",
+            "real and the same size"
+          ],
+          "explanation": "A concave lens diverges light, so its image is always virtual, upright and smaller."
+        }
+      ]
+    },
+    {
+      "key": "current-electricity",
+      "name": "Current Electricity",
+      "synonyms": [
+        "electricity",
+        "ohm's law",
+        "ohms law",
+        "resistance",
+        "electric current",
+        "resistors"
+      ],
+      "questions": [
+        {
+          "question": "Ohm's law says that at constant temperature, the current through a conductor is:",
+          "answer": "directly proportional to the potential difference",
+          "distractors": [
+            "inversely proportional to the potential difference",
+            "independent of the potential difference",
+            "proportional to the square of the potential difference"
+          ],
+          "explanation": "V equals I R, so doubling the voltage doubles the current."
+        },
+        {
+          "question": "What current flows through a 10 ohm resistor connected to a 5 volt supply?",
+          "answer": "0.5 ampere",
+          "distractors": [
+            "2 amperes",
+            "50 amperes",
+            "15 amperes"
+          ],
+          "explanation": "I equals V over R, which is 5 divided by 10, or 0.5 ampere."
+        },
+        {
+          "question": "Two 6 ohm resistors are connected in parallel. What is their equivalent resistance?",
+          "answer": "3 ohms",
+          "distractors": [
+            "12 ohms",
+            "6 ohms",
+            "1.5 ohms"
+          ],
+          "explanation": "1 over R is one sixth plus one sixth, which is one third, so R is 3 ohms."
+        },
+        {
+          "question": "The kilowatt hour is a unit of:",
+          "answer": "electrical energy",
+          "distractors": [
+            "electrical power",
+            "electric current",
+            "electric charge"
+          ],
+          "explanation": "It is the energy used by a 1 kilowatt device in 1 hour, 3.6 million joules."
+        },
+        {
+          "question": "Two 4 ohm resistors are connected in series. What is their total resistance?",
+          "answer": "8 ohms",
+          "distractors": [
+            "2 ohms",
+            "4 ohms",
+            "16 ohms"
+          ],
+          "explanation": "In series, resistances add: 4 plus 4 is 8 ohms."
+        }
+      ]
+    },
+    {
+      "key": "calorimetry",
+      "name": "Calorimetry",
+      "synonyms": [
+        "heat",
+        "specific heat capacity",
+        "latent heat",
+        "calorimeter"
+      ],
+      "questions": [
+        {
+          "question": "The S I unit of specific heat capacity is:",
+          "answer": "joule per kilogram per kelvin",
+          "distractors": [
+            "joule per kelvin",
+            "joule per kilogram",
+            "watt per kelvin"
+          ],
+          "explanation": "It is the heat needed to raise 1 kilogram by 1 kelvin; joule per kelvin is the unit of heat capacity."
+        },
+        {
+          "question": "Water is used in car radiators because it has:",
+          "answer": "a high specific heat capacity",
+          "distractors": [
+            "a low specific heat capacity",
+            "a low boiling point",
+            "a high density"
+          ],
+          "explanation": "Water absorbs a lot of heat for a small rise in temperature."
+        },
+        {
+          "question": "The heat needed to change 1 kilogram of ice at 0 degrees Celsius into water at 0 degrees Celsius is the:",
+          "answer": "specific latent heat of fusion",
+          "distractors": [
+            "specific heat capacity",
+            "specific latent heat of vaporisation",
+            "heat capacity"
+          ],
+          "explanation": "The heat changes the state without changing the temperature, which is latent heat of fusion."
+        },
+        {
+          "question": "How much heat is needed to raise 2 kilograms of water by 10 degrees Celsius? Take the specific heat of water as 4,200 joules per kilogram per kelvin.",
+          "answer": "84,000 joules",
+          "distractors": [
+            "42,000 joules",
+            "8,400 joules",
+            "840,000 joules"
+          ],
+          "explanation": "Heat is m c times the temperature change: 2 times 4,200 times 10 is 84,000 joules."
+        },
+        {
+          "question": "Heat flows from one body to another because of a difference in their:",
+          "answer": "temperature",
+          "distractors": [
+            "mass",
+            "heat capacity",
+            "volume"
+          ],
+          "explanation": "Heat always flows from the hotter body to the colder one."
+        }
+      ]
+    }
+  ]
+}

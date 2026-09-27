@@ -1,0 +1,324 @@
+{
+  "grade": 9,
+  "subject": "biology",
+  "topics": [
+    {
+      "key": "cell-and-tissues",
+      "name": "Cell and Tissues",
+      "synonyms": [
+        "cell",
+        "cells",
+        "tissues",
+        "plant tissues",
+        "animal tissues",
+        "cell structure"
+      ],
+      "questions": [
+        {
+          "question": "Which organelle is known as the powerhouse of the cell?",
+          "answer": "mitochondria",
+          "distractors": [
+            "ribosome",
+            "Golgi body",
+            "nucleus"
+          ],
+          "explanation": "Mitochondria release energy from food during cellular respiration."
+        },
+        {
+          "question": "Which of these is found in plant cells but not in animal cells?",
+          "answer": "cell wall",
+          "distractors": [
+            "cell membrane",
+            "mitochondria",
+            "nucleus"
+          ],
+          "explanation": "Plant cells have a rigid cellulose cell wall outside the cell membrane."
+        },
+        {
+          "question": "Which plant tissue conducts water from the roots to the leaves?",
+          "answer": "xylem",
+          "distractors": [
+            "phloem",
+            "parenchyma",
+            "epidermis"
+          ],
+          "explanation": "Xylem carries water and minerals upward; phloem carries food."
+        },
+        {
+          "question": "Which animal tissue helps in movement?",
+          "answer": "muscular tissue",
+          "distractors": [
+            "epithelial tissue",
+            "adipose tissue",
+            "blood"
+          ],
+          "explanation": "Muscle fibres contract and relax to produce movement."
+        },
+        {
+          "question": "Who first observed cells, in a thin slice of cork?",
+          "answer": "Robert Hooke",
+          "distractors": [
+            "Robert Brown",
+            "Anton van Leeuwenhoek",
+            "Gregor Mendel"
+          ],
+          "explanation": "Robert Hooke saw and named cells in 1665; Robert Brown discovered the nucleus."
+        }
+      ]
+    },
+    {
+      "key": "flowers-and-seeds",
+      "name": "Flower, Pollination and Seeds",
+      "synonyms": [
+        "flower",
+        "flowers",
+        "pollination",
+        "fertilisation",
+        "seeds",
+        "germination",
+        "seed germination"
+      ],
+      "questions": [
+        {
+          "question": "The transfer of pollen grains from the anther to the stigma is called:",
+          "answer": "pollination",
+          "distractors": [
+            "fertilisation",
+            "germination",
+            "transpiration"
+          ],
+          "explanation": "Pollination comes before fertilisation, which is the fusion of the male and female gametes."
+        },
+        {
+          "question": "The male reproductive part of a flower is the:",
+          "answer": "stamen",
+          "distractors": [
+            "pistil",
+            "sepal",
+            "petal"
+          ],
+          "explanation": "The stamen, made of anther and filament, produces pollen; the pistil is the female part."
+        },
+        {
+          "question": "Which of these is usually not needed for a seed to germinate?",
+          "answer": "light",
+          "distractors": [
+            "water",
+            "oxygen",
+            "a suitable temperature"
+          ],
+          "explanation": "Most seeds need water, oxygen and warmth to germinate, but not light."
+        },
+        {
+          "question": "Pollination by wind is called:",
+          "answer": "anemophily",
+          "distractors": [
+            "entomophily",
+            "hydrophily",
+            "ornithophily"
+          ],
+          "explanation": "Anemophily is wind pollination; entomophily is by insects, hydrophily by water and ornithophily by birds."
+        },
+        {
+          "question": "After fertilisation, the ovary of a flower develops into the:",
+          "answer": "fruit",
+          "distractors": [
+            "seed",
+            "flower",
+            "root"
+          ],
+          "explanation": "The ovary becomes the fruit and the ovules inside it become seeds."
+        }
+      ]
+    },
+    {
+      "key": "five-kingdoms",
+      "name": "Five Kingdom Classification",
+      "synonyms": [
+        "classification",
+        "five kingdoms",
+        "five kingdom classification",
+        "kingdoms",
+        "diversity in living organisms"
+      ],
+      "questions": [
+        {
+          "question": "Who proposed the five kingdom classification?",
+          "answer": "R H Whittaker",
+          "distractors": [
+            "Carolus Linnaeus",
+            "Charles Darwin",
+            "Gregor Mendel"
+          ],
+          "explanation": "Whittaker proposed it in 1969; Linnaeus gave the earlier two kingdom system."
+        },
+        {
+          "question": "Bacteria belong to the kingdom:",
+          "answer": "Monera",
+          "distractors": [
+            "Protista",
+            "Fungi",
+            "Plantae"
+          ],
+          "explanation": "Monera contains prokaryotes, which have no true nucleus, such as bacteria."
+        },
+        {
+          "question": "Mushrooms belong to the kingdom:",
+          "answer": "Fungi",
+          "distractors": [
+            "Plantae",
+            "Monera",
+            "Protista"
+          ],
+          "explanation": "Mushrooms have no chlorophyll and absorb food from their surroundings, like other fungi."
+        },
+        {
+          "question": "Amoeba belongs to the kingdom:",
+          "answer": "Protista",
+          "distractors": [
+            "Monera",
+            "Fungi",
+            "Animalia"
+          ],
+          "explanation": "Protista contains single-celled organisms that have a true nucleus, such as amoeba."
+        },
+        {
+          "question": "Which kingdom has multicellular organisms that make their own food by photosynthesis?",
+          "answer": "Plantae",
+          "distractors": [
+            "Animalia",
+            "Fungi",
+            "Monera"
+          ],
+          "explanation": "Plants are multicellular autotrophs with chlorophyll."
+        }
+      ]
+    },
+    {
+      "key": "digestive-system",
+      "name": "Digestive System",
+      "synonyms": [
+        "digestion",
+        "nutrition",
+        "human digestive system",
+        "digestive enzymes"
+      ],
+      "questions": [
+        {
+          "question": "Where does the digestion of starch begin?",
+          "answer": "in the mouth",
+          "distractors": [
+            "in the stomach",
+            "in the small intestine",
+            "in the large intestine"
+          ],
+          "explanation": "Salivary amylase in saliva starts breaking down starch in the mouth."
+        },
+        {
+          "question": "Bile is produced by the:",
+          "answer": "liver",
+          "distractors": [
+            "gall bladder",
+            "pancreas",
+            "stomach"
+          ],
+          "explanation": "The liver makes bile; the gall bladder only stores it."
+        },
+        {
+          "question": "Most absorption of digested food takes place in the:",
+          "answer": "small intestine",
+          "distractors": [
+            "stomach",
+            "large intestine",
+            "oesophagus"
+          ],
+          "explanation": "The villi of the small intestine give a large surface area for absorption."
+        },
+        {
+          "question": "The enzyme pepsin digests:",
+          "answer": "proteins",
+          "distractors": [
+            "starch",
+            "fats",
+            "vitamins"
+          ],
+          "explanation": "Pepsin in the stomach breaks proteins into peptones."
+        },
+        {
+          "question": "Which part of the digestive system absorbs most of the water from undigested food?",
+          "answer": "large intestine",
+          "distractors": [
+            "small intestine",
+            "stomach",
+            "liver"
+          ],
+          "explanation": "The large intestine removes water from undigested food before it is passed out."
+        }
+      ]
+    },
+    {
+      "key": "health-and-hygiene",
+      "name": "Health and Hygiene",
+      "synonyms": [
+        "diseases",
+        "health",
+        "hygiene",
+        "communicable diseases",
+        "vaccination",
+        "health and diseases"
+      ],
+      "questions": [
+        {
+          "question": "Malaria is spread by the:",
+          "answer": "female Anopheles mosquito",
+          "distractors": [
+            "housefly",
+            "Culex mosquito",
+            "rat flea"
+          ],
+          "explanation": "The female Anopheles mosquito carries the malaria parasite, Plasmodium."
+        },
+        {
+          "question": "Which of these diseases is caused by a virus?",
+          "answer": "measles",
+          "distractors": [
+            "tuberculosis",
+            "cholera",
+            "typhoid"
+          ],
+          "explanation": "Measles is viral; tuberculosis, cholera and typhoid are caused by bacteria."
+        },
+        {
+          "question": "Vaccination protects us by:",
+          "answer": "making the body produce antibodies",
+          "distractors": [
+            "killing all germs in the air",
+            "replacing lost blood",
+            "providing extra vitamins"
+          ],
+          "explanation": "A vaccine trains the immune system to recognise a germ and make antibodies against it."
+        },
+        {
+          "question": "Tuberculosis mainly affects the:",
+          "answer": "lungs",
+          "distractors": [
+            "liver",
+            "kidneys",
+            "skin"
+          ],
+          "explanation": "T B is a bacterial disease that mostly attacks the lungs."
+        },
+        {
+          "question": "Scurvy is caused by a lack of:",
+          "answer": "vitamin C",
+          "distractors": [
+            "vitamin A",
+            "vitamin D",
+            "iron"
+          ],
+          "explanation": "Vitamin C, found in citrus fruits and amla, prevents scurvy."
+        }
+      ]
+    }
+  ]
+}

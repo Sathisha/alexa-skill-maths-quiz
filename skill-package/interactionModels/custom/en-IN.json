@@ -1,0 +1,1070 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "exam buddy",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "StartQuizIntent",
+          "samples": [
+            "start a quiz",
+            "start quiz",
+            "quiz me",
+            "give me a quiz",
+            "new quiz",
+            "start",
+            "{grade}",
+            "class {grade}",
+            "{grade} class",
+            "{grade} standard",
+            "standard {grade}",
+            "grade {grade}",
+            "{subject}",
+            "i want {subject}",
+            "start a {subject} quiz",
+            "ask me {subject} questions",
+            "{topic}",
+            "chapter {topic}",
+            "the chapter {topic}",
+            "quiz me on {topic}",
+            "practise {topic}",
+            "practice {topic}",
+            "let's do {topic}",
+            "start a quiz on {topic}",
+            "ask me questions on {topic}",
+            "class {grade} {subject}",
+            "{grade} class {subject}",
+            "{grade} standard {subject}",
+            "{subject} for class {grade}",
+            "{subject} class {grade}",
+            "quiz me on {subject}",
+            "quiz me on class {grade} {subject}",
+            "quiz me on {subject} for class {grade}",
+            "i want class {grade} {subject}",
+            "let's do class {grade} {subject}",
+            "start a class {grade} {subject} quiz",
+            "practise class {grade} {subject}",
+            "{subject} {topic}",
+            "{subject} chapter {topic}",
+            "{topic} in {subject}",
+            "{topic} for class {grade}",
+            "{topic} class {grade}",
+            "class {grade} {topic}",
+            "quiz me on {topic} for class {grade}",
+            "class {grade} {subject} {topic}",
+            "class {grade} {subject} on {topic}",
+            "class {grade} {subject} chapter {topic}",
+            "quiz me on class {grade} {subject} {topic}",
+            "{grade} class {subject} {topic}",
+            "{topic} for class {grade} {subject}"
+          ],
+          "slots": [
+            {
+              "name": "grade",
+              "type": "GRADE"
+            },
+            {
+              "name": "subject",
+              "type": "SUBJECT"
+            },
+            {
+              "name": "topic",
+              "type": "TOPIC"
+            }
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "samples": [
+            "{answer}",
+            "option {answer}",
+            "answer {answer}",
+            "letter {answer}",
+            "the answer is {answer}",
+            "my answer is {answer}",
+            "it is {answer}",
+            "it's {answer}",
+            "is it {answer}",
+            "i think {answer}",
+            "i think it's {answer}",
+            "i'll go with {answer}",
+            "i choose {answer}",
+            "i pick {answer}",
+            "{answer} is my answer",
+            "go with {answer}"
+          ],
+          "slots": [
+            {
+              "name": "answer",
+              "type": "ANSWER"
+            }
+          ]
+        },
+        {
+          "name": "ListTopicsIntent",
+          "samples": [
+            "what chapters are there",
+            "what topics are there",
+            "list the chapters",
+            "list chapters",
+            "list topics",
+            "which chapters do you have",
+            "what chapters do you have",
+            "what chapters are there in class {grade} {subject}",
+            "what topics are there in class {grade} {subject}",
+            "what are the chapters in class {grade} {subject}",
+            "list the chapters for class {grade} {subject}",
+            "which chapters do you have for class {grade} {subject}",
+            "chapters for class {grade} {subject}",
+            "list chapters in {subject}",
+            "what chapters are in {subject}",
+            "what chapters are there in {subject}"
+          ],
+          "slots": [
+            {
+              "name": "grade",
+              "type": "GRADE"
+            },
+            {
+              "name": "subject",
+              "type": "SUBJECT"
+            }
+          ]
+        },
+        {
+          "name": "SkipIntent",
+          "samples": [
+            "skip",
+            "skip this",
+            "skip this question",
+            "skip it",
+            "pass",
+            "i don't know",
+            "i do not know",
+            "no idea",
+            "next question",
+            "i give up",
+            "give up",
+            "tell me the answer",
+            "i'm not sure"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "GRADE",
+          "values": [
+            {
+              "id": "9",
+              "name": {
+                "value": "9",
+                "synonyms": [
+                  "nine",
+                  "ninth",
+                  "9th"
+                ]
+              }
+            },
+            {
+              "id": "10",
+              "name": {
+                "value": "10",
+                "synonyms": [
+                  "ten",
+                  "tenth",
+                  "10th"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "SUBJECT",
+          "values": [
+            {
+              "id": "maths",
+              "name": {
+                "value": "maths",
+                "synonyms": [
+                  "math",
+                  "mathematics",
+                  "maths quiz"
+                ]
+              }
+            },
+            {
+              "id": "physics",
+              "name": {
+                "value": "physics",
+                "synonyms": [
+                  "physics quiz"
+                ]
+              }
+            },
+            {
+              "id": "chemistry",
+              "name": {
+                "value": "chemistry",
+                "synonyms": [
+                  "chem",
+                  "chemistry quiz"
+                ]
+              }
+            },
+            {
+              "id": "biology",
+              "name": {
+                "value": "biology",
+                "synonyms": [
+                  "bio",
+                  "biology quiz"
+                ]
+              }
+            },
+            {
+              "id": "science",
+              "name": {
+                "value": "science",
+                "synonyms": [
+                  "sciences",
+                  "general science",
+                  "all science",
+                  "all of science",
+                  "science quiz"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "ANSWER",
+          "values": [
+            {
+              "id": "A",
+              "name": {
+                "value": "A",
+                "synonyms": [
+                  "option a",
+                  "ay",
+                  "eh",
+                  "first",
+                  "first one",
+                  "one"
+                ]
+              }
+            },
+            {
+              "id": "B",
+              "name": {
+                "value": "B",
+                "synonyms": [
+                  "option b",
+                  "bee",
+                  "be",
+                  "second",
+                  "second one",
+                  "two"
+                ]
+              }
+            },
+            {
+              "id": "C",
+              "name": {
+                "value": "C",
+                "synonyms": [
+                  "option c",
+                  "see",
+                  "sea",
+                  "si",
+                  "third",
+                  "third one",
+                  "three"
+                ]
+              }
+            },
+            {
+              "id": "D",
+              "name": {
+                "value": "D",
+                "synonyms": [
+                  "option d",
+                  "dee",
+                  "di",
+                  "fourth",
+                  "fourth one",
+                  "four"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "TOPIC",
+          "values": [
+            {
+              "id": "genetics",
+              "name": {
+                "value": "genetics",
+                "synonyms": [
+                  "heredity",
+                  "mendel",
+                  "mendel's laws",
+                  "dominant and recessive",
+                  "chromosomes",
+                  "genes"
+                ]
+              }
+            },
+            {
+              "id": "photosynthesis",
+              "name": {
+                "value": "photosynthesis",
+                "synonyms": [
+                  "chlorophyll",
+                  "light reaction",
+                  "dark reaction",
+                  "food production in plants"
+                ]
+              }
+            },
+            {
+              "id": "circulatory-system",
+              "name": {
+                "value": "circulatory system",
+                "synonyms": [
+                  "circulation",
+                  "heart",
+                  "blood",
+                  "blood vessels",
+                  "blood circulation"
+                ]
+              }
+            },
+            {
+              "id": "nervous-system",
+              "name": {
+                "value": "nervous system and sense organs",
+                "synonyms": [
+                  "nervous system",
+                  "brain",
+                  "reflex action",
+                  "neurons",
+                  "sense organs",
+                  "eye",
+                  "ear"
+                ]
+              }
+            },
+            {
+              "id": "endocrine-system",
+              "name": {
+                "value": "endocrine system",
+                "synonyms": [
+                  "hormones",
+                  "endocrine glands",
+                  "glands",
+                  "chemical coordination"
+                ]
+              }
+            },
+            {
+              "id": "periodic-properties",
+              "name": {
+                "value": "periodic properties and variations",
+                "synonyms": [
+                  "periodic properties",
+                  "atomic size",
+                  "ionisation potential",
+                  "electronegativity",
+                  "electron affinity",
+                  "periodic trends"
+                ]
+              }
+            },
+            {
+              "id": "acids-bases-salts",
+              "name": {
+                "value": "acids bases and salts",
+                "synonyms": [
+                  "acids bases salts",
+                  "acids",
+                  "bases",
+                  "salts",
+                  "p h",
+                  "alkalis",
+                  "indicators",
+                  "acids and bases"
+                ]
+              }
+            },
+            {
+              "id": "mole-concept",
+              "name": {
+                "value": "mole concept and stoichiometry",
+                "synonyms": [
+                  "mole concept",
+                  "moles",
+                  "mole",
+                  "stoichiometry",
+                  "avogadro's number",
+                  "molar volume"
+                ]
+              }
+            },
+            {
+              "id": "electrolysis",
+              "name": {
+                "value": "electrolysis",
+                "synonyms": [
+                  "electrolytes",
+                  "electroplating",
+                  "electrodes",
+                  "anode and cathode"
+                ]
+              }
+            },
+            {
+              "id": "organic-chemistry",
+              "name": {
+                "value": "organic chemistry",
+                "synonyms": [
+                  "hydrocarbons",
+                  "alkanes",
+                  "alkenes",
+                  "alkynes",
+                  "carbon compounds",
+                  "homologous series"
+                ]
+              }
+            },
+            {
+              "id": "gst",
+              "name": {
+                "value": "gst",
+                "synonyms": [
+                  "goods and services tax",
+                  "g s t",
+                  "tax"
+                ]
+              }
+            },
+            {
+              "id": "banking",
+              "name": {
+                "value": "banking",
+                "synonyms": [
+                  "recurring deposit",
+                  "r d",
+                  "bank account",
+                  "recurring deposit account"
+                ]
+              }
+            },
+            {
+              "id": "shares-dividend",
+              "name": {
+                "value": "shares and dividend",
+                "synonyms": [
+                  "shares dividend",
+                  "shares",
+                  "dividend",
+                  "shares and dividends",
+                  "stocks"
+                ]
+              }
+            },
+            {
+              "id": "linear-inequations",
+              "name": {
+                "value": "linear inequations",
+                "synonyms": [
+                  "inequations",
+                  "inequalities",
+                  "solution set",
+                  "linear inequalities"
+                ]
+              }
+            },
+            {
+              "id": "quadratic-equations",
+              "name": {
+                "value": "quadratic equations",
+                "synonyms": [
+                  "quadratics",
+                  "quadratic formula",
+                  "roots",
+                  "nature of roots",
+                  "quadratic equation"
+                ]
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "name": {
+                "value": "ratio and proportion",
+                "synonyms": [
+                  "ratio proportion",
+                  "ratio",
+                  "proportion",
+                  "componendo and dividendo",
+                  "mean proportional",
+                  "ratios"
+                ]
+              }
+            },
+            {
+              "id": "factor-theorem",
+              "name": {
+                "value": "remainder and factor theorems",
+                "synonyms": [
+                  "factor theorem",
+                  "remainder theorem",
+                  "polynomials",
+                  "factorisation of polynomials"
+                ]
+              }
+            },
+            {
+              "id": "matrices",
+              "name": {
+                "value": "matrices",
+                "synonyms": [
+                  "matrix",
+                  "matrix multiplication",
+                  "order of a matrix"
+                ]
+              }
+            },
+            {
+              "id": "progressions",
+              "name": {
+                "value": "arithmetic and geometric progressions",
+                "synonyms": [
+                  "progressions",
+                  "arithmetic progression",
+                  "a p",
+                  "geometric progression",
+                  "g p",
+                  "sequences",
+                  "progression"
+                ]
+              }
+            },
+            {
+              "id": "coordinate-geometry",
+              "name": {
+                "value": "coordinate geometry",
+                "synonyms": [
+                  "section formula",
+                  "mid point formula",
+                  "midpoint formula",
+                  "equation of a line",
+                  "slope",
+                  "gradient",
+                  "coordinates",
+                  "distance formula",
+                  "cartesian plane",
+                  "coordinate",
+                  "co ordinate geometry"
+                ]
+              }
+            },
+            {
+              "id": "similarity",
+              "name": {
+                "value": "similarity",
+                "synonyms": [
+                  "similar triangles",
+                  "scale factor",
+                  "maps and models"
+                ]
+              }
+            },
+            {
+              "id": "circles",
+              "name": {
+                "value": "circles",
+                "synonyms": [
+                  "tangents",
+                  "cyclic quadrilateral",
+                  "angle properties of circles",
+                  "circle theorems",
+                  "circle",
+                  "chords",
+                  "chord properties",
+                  "chord"
+                ]
+              }
+            },
+            {
+              "id": "mensuration",
+              "name": {
+                "value": "mensuration",
+                "synonyms": [
+                  "cylinder",
+                  "cone",
+                  "sphere",
+                  "surface area and volume",
+                  "volume",
+                  "area and perimeter",
+                  "surface area",
+                  "cuboid",
+                  "cube",
+                  "area"
+                ]
+              }
+            },
+            {
+              "id": "trigonometry",
+              "name": {
+                "value": "trigonometry",
+                "synonyms": [
+                  "trigonometric identities",
+                  "heights and distances",
+                  "angle of elevation",
+                  "angle of depression",
+                  "trigonometric ratios",
+                  "trig",
+                  "sin cos tan",
+                  "trignometry"
+                ]
+              }
+            },
+            {
+              "id": "statistics",
+              "name": {
+                "value": "statistics",
+                "synonyms": [
+                  "mean median and mode",
+                  "ogive",
+                  "quartiles",
+                  "mode",
+                  "histogram",
+                  "mean",
+                  "median",
+                  "data handling",
+                  "frequency distribution",
+                  "graphs"
+                ]
+              }
+            },
+            {
+              "id": "probability",
+              "name": {
+                "value": "probability",
+                "synonyms": [
+                  "chance",
+                  "coins and dice",
+                  "probabilities"
+                ]
+              }
+            },
+            {
+              "id": "work-energy-power",
+              "name": {
+                "value": "work energy and power",
+                "synonyms": [
+                  "work energy power",
+                  "work",
+                  "energy",
+                  "power",
+                  "kinetic energy",
+                  "potential energy"
+                ]
+              }
+            },
+            {
+              "id": "machines",
+              "name": {
+                "value": "machines",
+                "synonyms": [
+                  "simple machines",
+                  "levers",
+                  "pulleys",
+                  "mechanical advantage",
+                  "efficiency",
+                  "lever",
+                  "pulley"
+                ]
+              }
+            },
+            {
+              "id": "refraction-and-lenses",
+              "name": {
+                "value": "refraction of light and lenses",
+                "synonyms": [
+                  "refraction and lenses",
+                  "refraction",
+                  "lenses",
+                  "refractive index",
+                  "total internal reflection",
+                  "convex lens",
+                  "concave lens",
+                  "lens"
+                ]
+              }
+            },
+            {
+              "id": "current-electricity",
+              "name": {
+                "value": "current electricity",
+                "synonyms": [
+                  "electricity",
+                  "ohm's law",
+                  "ohms law",
+                  "resistance",
+                  "electric current",
+                  "resistors"
+                ]
+              }
+            },
+            {
+              "id": "calorimetry",
+              "name": {
+                "value": "calorimetry",
+                "synonyms": [
+                  "heat",
+                  "specific heat capacity",
+                  "latent heat",
+                  "calorimeter"
+                ]
+              }
+            },
+            {
+              "id": "cell-and-tissues",
+              "name": {
+                "value": "cell and tissues",
+                "synonyms": [
+                  "cell",
+                  "cells",
+                  "tissues",
+                  "plant tissues",
+                  "animal tissues",
+                  "cell structure"
+                ]
+              }
+            },
+            {
+              "id": "flowers-and-seeds",
+              "name": {
+                "value": "flower pollination and seeds",
+                "synonyms": [
+                  "flowers and seeds",
+                  "flower",
+                  "flowers",
+                  "pollination",
+                  "fertilisation",
+                  "seeds",
+                  "germination",
+                  "seed germination"
+                ]
+              }
+            },
+            {
+              "id": "five-kingdoms",
+              "name": {
+                "value": "five kingdom classification",
+                "synonyms": [
+                  "five kingdoms",
+                  "classification",
+                  "kingdoms",
+                  "diversity in living organisms"
+                ]
+              }
+            },
+            {
+              "id": "digestive-system",
+              "name": {
+                "value": "digestive system",
+                "synonyms": [
+                  "digestion",
+                  "nutrition",
+                  "human digestive system",
+                  "digestive enzymes"
+                ]
+              }
+            },
+            {
+              "id": "health-and-hygiene",
+              "name": {
+                "value": "health and hygiene",
+                "synonyms": [
+                  "diseases",
+                  "health",
+                  "hygiene",
+                  "communicable diseases",
+                  "vaccination",
+                  "health and diseases"
+                ]
+              }
+            },
+            {
+              "id": "language-of-chemistry",
+              "name": {
+                "value": "the language of chemistry",
+                "synonyms": [
+                  "language of chemistry",
+                  "symbols and formulae",
+                  "valency",
+                  "chemical equations",
+                  "chemical formulae"
+                ]
+              }
+            },
+            {
+              "id": "atomic-structure",
+              "name": {
+                "value": "atomic structure and chemical bonding",
+                "synonyms": [
+                  "atomic structure",
+                  "atoms",
+                  "structure of atom",
+                  "chemical bonding",
+                  "electronic configuration",
+                  "isotopes"
+                ]
+              }
+            },
+            {
+              "id": "periodic-table",
+              "name": {
+                "value": "the periodic table",
+                "synonyms": [
+                  "periodic table",
+                  "groups and periods",
+                  "mendeleev",
+                  "modern periodic law",
+                  "periodic law"
+                ]
+              }
+            },
+            {
+              "id": "hydrogen",
+              "name": {
+                "value": "study of the first element hydrogen",
+                "synonyms": [
+                  "hydrogen",
+                  "first element",
+                  "preparation of hydrogen"
+                ]
+              }
+            },
+            {
+              "id": "gas-laws",
+              "name": {
+                "value": "study of gas laws",
+                "synonyms": [
+                  "gas laws",
+                  "boyle's law",
+                  "boyles law",
+                  "charles's law",
+                  "charles law"
+                ]
+              }
+            },
+            {
+              "id": "rational-irrational",
+              "name": {
+                "value": "rational and irrational numbers",
+                "synonyms": [
+                  "rational irrational",
+                  "rational numbers",
+                  "irrational numbers",
+                  "number system",
+                  "real numbers",
+                  "surds"
+                ]
+              }
+            },
+            {
+              "id": "compound-interest",
+              "name": {
+                "value": "compound interest",
+                "synonyms": [
+                  "c i",
+                  "interest"
+                ]
+              }
+            },
+            {
+              "id": "expansions-factorisation",
+              "name": {
+                "value": "expansions and factorisation",
+                "synonyms": [
+                  "expansions factorisation",
+                  "expansions",
+                  "expansion",
+                  "factorisation",
+                  "factorization",
+                  "algebraic identities",
+                  "identities"
+                ]
+              }
+            },
+            {
+              "id": "simultaneous-equations",
+              "name": {
+                "value": "simultaneous linear equations",
+                "synonyms": [
+                  "simultaneous equations",
+                  "linear equations",
+                  "pair of linear equations"
+                ]
+              }
+            },
+            {
+              "id": "indices-logarithms",
+              "name": {
+                "value": "indices and logarithms",
+                "synonyms": [
+                  "indices logarithms",
+                  "indices",
+                  "exponents",
+                  "logarithms",
+                  "logs",
+                  "powers",
+                  "logarithm"
+                ]
+              }
+            },
+            {
+              "id": "triangles",
+              "name": {
+                "value": "triangles",
+                "synonyms": [
+                  "triangle",
+                  "congruence",
+                  "congruent triangles",
+                  "isosceles triangle",
+                  "pythagoras theorem",
+                  "mid point theorem",
+                  "midpoint theorem"
+                ]
+              }
+            },
+            {
+              "id": "rectilinear-figures",
+              "name": {
+                "value": "rectilinear figures and area theorems",
+                "synonyms": [
+                  "rectilinear figures",
+                  "quadrilaterals",
+                  "polygons",
+                  "parallelograms",
+                  "area theorems",
+                  "theorems on area"
+                ]
+              }
+            },
+            {
+              "id": "motion",
+              "name": {
+                "value": "motion in one dimension",
+                "synonyms": [
+                  "motion",
+                  "speed and velocity",
+                  "acceleration",
+                  "equations of motion",
+                  "velocity"
+                ]
+              }
+            },
+            {
+              "id": "laws-of-motion",
+              "name": {
+                "value": "laws of motion",
+                "synonyms": [
+                  "newton's laws",
+                  "newtons laws of motion",
+                  "force and momentum",
+                  "inertia",
+                  "momentum",
+                  "force"
+                ]
+              }
+            },
+            {
+              "id": "fluids",
+              "name": {
+                "value": "pressure in fluids and upthrust",
+                "synonyms": [
+                  "fluids",
+                  "pressure",
+                  "upthrust",
+                  "buoyancy",
+                  "archimedes principle",
+                  "flotation",
+                  "pressure in fluids"
+                ]
+              }
+            },
+            {
+              "id": "reflection-of-light",
+              "name": {
+                "value": "reflection of light",
+                "synonyms": [
+                  "light",
+                  "reflection",
+                  "plane mirror",
+                  "mirrors",
+                  "laws of reflection"
+                ]
+              }
+            },
+            {
+              "id": "sound",
+              "name": {
+                "value": "sound",
+                "synonyms": [
+                  "sound waves",
+                  "echo",
+                  "vibrations",
+                  "frequency"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

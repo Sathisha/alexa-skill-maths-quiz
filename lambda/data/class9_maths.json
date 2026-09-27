@@ -1,0 +1,764 @@
+{
+  "grade": 9,
+  "subject": "maths",
+  "topics": [
+    {
+      "key": "rational-irrational",
+      "name": "Rational and Irrational Numbers",
+      "synonyms": [
+        "rational numbers",
+        "irrational numbers",
+        "number system",
+        "real numbers",
+        "surds"
+      ],
+      "questions": [
+        {
+          "question": "Which of these is an irrational number?",
+          "answer": "root 2",
+          "distractors": [
+            "22 over 7",
+            "0.75",
+            "root 16"
+          ],
+          "explanation": "Root 2 cannot be written as p over q; root 16 is 4, and 22 over 7 is a fraction."
+        },
+        {
+          "question": "The decimal expansion of an irrational number is:",
+          "answer": "non-terminating and non-recurring",
+          "distractors": [
+            "terminating",
+            "non-terminating and recurring",
+            "always a whole number"
+          ],
+          "explanation": "Rational numbers terminate or recur; irrational numbers do neither."
+        },
+        {
+          "question": "How many rational numbers lie between any two distinct rational numbers?",
+          "answer": "infinitely many",
+          "distractors": [
+            "none",
+            "exactly one",
+            "exactly ten"
+          ],
+          "explanation": "You can always find another rational number between two, for example their average, so there are infinitely many."
+        },
+        {
+          "question": "What is root 3 multiplied by root 12?",
+          "answer": "6",
+          "distractors": [
+            "root 15",
+            "36",
+            "3 root 2"
+          ],
+          "explanation": "Root 3 times root 12 is root 36, which is 6."
+        },
+        {
+          "question": "Which of these is a rational number?",
+          "answer": "0.333 recurring",
+          "distractors": [
+            "root 5",
+            "pi",
+            "root 3"
+          ],
+          "explanation": "0.333 recurring equals one third, which can be written as p over q."
+        }
+      ]
+    },
+    {
+      "key": "compound-interest",
+      "name": "Compound Interest",
+      "synonyms": [
+        "compound interest",
+        "C I",
+        "interest"
+      ],
+      "questions": [
+        {
+          "question": "What is the compound interest on 10,000 rupees for 2 years at 10 percent per annum, compounded annually?",
+          "answer": "2,100 rupees",
+          "distractors": [
+            "2,000 rupees",
+            "2,200 rupees",
+            "1,100 rupees"
+          ],
+          "explanation": "The amount is 10,000 times 1.1 times 1.1, which is 12,100 rupees, so the interest is 2,100 rupees."
+        },
+        {
+          "question": "Compound interest for the first year is equal to:",
+          "answer": "the simple interest for the first year",
+          "distractors": [
+            "twice the simple interest",
+            "zero",
+            "half the simple interest"
+          ],
+          "explanation": "In the first year interest is only on the principal, so compound and simple interest are the same."
+        },
+        {
+          "question": "If interest is compounded half-yearly at 8 percent per annum, what is the rate for each half-year?",
+          "answer": "4 percent",
+          "distractors": [
+            "8 percent",
+            "16 percent",
+            "2 percent"
+          ],
+          "explanation": "For half-yearly compounding, the yearly rate is halved: 8 divided by 2 is 4 percent."
+        },
+        {
+          "question": "A sum of 5,000 rupees amounts to 5,500 rupees in one year at compound interest. What is the rate per annum?",
+          "answer": "10 percent",
+          "distractors": [
+            "5 percent",
+            "11 percent",
+            "15 percent"
+          ],
+          "explanation": "The interest is 500 rupees on 5,000 rupees, which is 10 percent."
+        },
+        {
+          "question": "The amount after n years at r percent per annum compound interest is:",
+          "answer": "P times (1 plus r over 100) to the power n",
+          "distractors": [
+            "P times r times n over 100",
+            "P plus r times n",
+            "P times (1 plus r) times n"
+          ],
+          "explanation": "The principal grows by a factor of 1 plus r over 100 every year, for n years."
+        }
+      ]
+    },
+    {
+      "key": "expansions-factorisation",
+      "name": "Expansions and Factorisation",
+      "synonyms": [
+        "expansions",
+        "expansion",
+        "factorisation",
+        "factorization",
+        "algebraic identities",
+        "identities"
+      ],
+      "questions": [
+        {
+          "question": "What is the expansion of (a plus b) squared?",
+          "answer": "a squared plus 2 a b plus b squared",
+          "distractors": [
+            "a squared plus b squared",
+            "a squared minus 2 a b plus b squared",
+            "a squared plus a b plus b squared"
+          ],
+          "explanation": "(a plus b) times (a plus b) gives a squared, two a b terms, and b squared."
+        },
+        {
+          "question": "If a plus b equals 5 and a b equals 6, what is a squared plus b squared?",
+          "answer": "13",
+          "distractors": [
+            "37",
+            "25",
+            "11"
+          ],
+          "explanation": "a squared plus b squared equals (a plus b) squared minus 2 a b, which is 25 minus 12, or 13."
+        },
+        {
+          "question": "Factorise x squared minus 9.",
+          "answer": "(x plus 3)(x minus 3)",
+          "distractors": [
+            "(x minus 3) squared",
+            "(x plus 9)(x minus 1)",
+            "(x plus 3) squared"
+          ],
+          "explanation": "It is a difference of squares: a squared minus b squared equals (a plus b)(a minus b)."
+        },
+        {
+          "question": "Factorise x squared plus 5 x plus 6.",
+          "answer": "(x plus 2)(x plus 3)",
+          "distractors": [
+            "(x plus 1)(x plus 6)",
+            "(x minus 2)(x minus 3)",
+            "(x plus 5)(x plus 1)"
+          ],
+          "explanation": "We need two numbers that add to 5 and multiply to 6, which are 2 and 3."
+        },
+        {
+          "question": "What is the expansion of (a minus b) squared?",
+          "answer": "a squared minus 2 a b plus b squared",
+          "distractors": [
+            "a squared minus b squared",
+            "a squared plus 2 a b plus b squared",
+            "a squared minus 2 a b minus b squared"
+          ],
+          "explanation": "(a minus b) times (a minus b) gives a squared, minus 2 a b, plus b squared."
+        }
+      ]
+    },
+    {
+      "key": "simultaneous-equations",
+      "name": "Simultaneous Linear Equations",
+      "synonyms": [
+        "simultaneous equations",
+        "linear equations",
+        "pair of linear equations",
+        "simultaneous linear equations"
+      ],
+      "questions": [
+        {
+          "question": "If x plus y equals 10 and x minus y equals 2, what is x?",
+          "answer": "6",
+          "distractors": [
+            "4",
+            "8",
+            "5"
+          ],
+          "explanation": "Adding the two equations gives 2 x equals 12, so x is 6."
+        },
+        {
+          "question": "If 2 x plus y equals 7 and x equals 2, what is y?",
+          "answer": "3",
+          "distractors": [
+            "5",
+            "2",
+            "11"
+          ],
+          "explanation": "2 times 2 is 4, and 7 minus 4 is 3."
+        },
+        {
+          "question": "The method in which one variable is written in terms of the other and put into the second equation is called:",
+          "answer": "substitution",
+          "distractors": [
+            "elimination",
+            "cross-multiplication",
+            "factorisation"
+          ],
+          "explanation": "In substitution, you substitute the expression for one variable into the other equation."
+        },
+        {
+          "question": "The sum of two numbers is 20 and their difference is 4. What is the larger number?",
+          "answer": "12",
+          "distractors": [
+            "8",
+            "16",
+            "10"
+          ],
+          "explanation": "x plus y is 20 and x minus y is 4, so 2 x is 24 and x is 12."
+        },
+        {
+          "question": "If 3 x plus 2 y equals 12 and x equals 2, what is y?",
+          "answer": "3",
+          "distractors": [
+            "6",
+            "2",
+            "4"
+          ],
+          "explanation": "3 times 2 is 6, so 2 y is 6 and y is 3."
+        }
+      ]
+    },
+    {
+      "key": "indices-logarithms",
+      "name": "Indices and Logarithms",
+      "synonyms": [
+        "indices",
+        "exponents",
+        "logarithms",
+        "logs",
+        "powers",
+        "logarithm"
+      ],
+      "questions": [
+        {
+          "question": "What is the value of any non-zero number raised to the power 0?",
+          "answer": "1",
+          "distractors": [
+            "0",
+            "the number itself",
+            "undefined"
+          ],
+          "explanation": "By the law of indices, a to the power 0 equals 1 for any non-zero a."
+        },
+        {
+          "question": "What is 2 to the power 3 multiplied by 2 to the power 4?",
+          "answer": "2 to the power 7",
+          "distractors": [
+            "2 to the power 12",
+            "4 to the power 7",
+            "2 to the power 1"
+          ],
+          "explanation": "When multiplying powers with the same base, add the indices: 3 plus 4 is 7."
+        },
+        {
+          "question": "What is log of 1,000 to the base 10?",
+          "answer": "3",
+          "distractors": [
+            "10",
+            "100",
+            "2"
+          ],
+          "explanation": "10 to the power 3 is 1,000, so the log is 3."
+        },
+        {
+          "question": "log a plus log b is equal to:",
+          "answer": "log of a b",
+          "distractors": [
+            "log of a plus b",
+            "log a times log b",
+            "log of a divided by b"
+          ],
+          "explanation": "The product law says the log of a product is the sum of the logs."
+        },
+        {
+          "question": "What is 9 to the power one half?",
+          "answer": "3",
+          "distractors": [
+            "4.5",
+            "81",
+            "18"
+          ],
+          "explanation": "A power of one half means the square root, and root 9 is 3."
+        }
+      ]
+    },
+    {
+      "key": "triangles",
+      "name": "Triangles",
+      "synonyms": [
+        "triangle",
+        "congruence",
+        "congruent triangles",
+        "isosceles triangle",
+        "pythagoras theorem",
+        "mid-point theorem",
+        "midpoint theorem"
+      ],
+      "questions": [
+        {
+          "question": "In a right-angled triangle, the two shorter sides are 6 centimetres and 8 centimetres. What is the hypotenuse?",
+          "answer": "10 centimetres",
+          "distractors": [
+            "14 centimetres",
+            "12 centimetres",
+            "48 centimetres"
+          ],
+          "explanation": "By Pythagoras, 6 squared plus 8 squared is 100, and root 100 is 10."
+        },
+        {
+          "question": "Which of these is not a valid rule for congruence of triangles?",
+          "answer": "A A A",
+          "distractors": [
+            "S A S",
+            "A S A",
+            "R H S"
+          ],
+          "explanation": "Three equal angles only make triangles similar; they can still be different sizes."
+        },
+        {
+          "question": "In an isosceles triangle, the angles opposite the equal sides are:",
+          "answer": "equal",
+          "distractors": [
+            "supplementary",
+            "complementary",
+            "always 90 degrees"
+          ],
+          "explanation": "Angles opposite equal sides of a triangle are equal."
+        },
+        {
+          "question": "The line joining the mid-points of two sides of a triangle is parallel to the third side and equal to:",
+          "answer": "half of the third side",
+          "distractors": [
+            "the third side",
+            "twice the third side",
+            "one third of the third side"
+          ],
+          "explanation": "This is the mid-point theorem."
+        },
+        {
+          "question": "What is the sum of the interior angles of a triangle?",
+          "answer": "180 degrees",
+          "distractors": [
+            "90 degrees",
+            "360 degrees",
+            "270 degrees"
+          ],
+          "explanation": "The three angles of any triangle add up to 180 degrees."
+        }
+      ]
+    },
+    {
+      "key": "rectilinear-figures",
+      "name": "Rectilinear Figures and Area Theorems",
+      "synonyms": [
+        "rectilinear figures",
+        "quadrilaterals",
+        "polygons",
+        "parallelograms",
+        "area theorems",
+        "theorems on area"
+      ],
+      "questions": [
+        {
+          "question": "What is the sum of the interior angles of a hexagon?",
+          "answer": "720 degrees",
+          "distractors": [
+            "540 degrees",
+            "360 degrees",
+            "900 degrees"
+          ],
+          "explanation": "The sum is (n minus 2) times 180 degrees; for 6 sides that is 4 times 180, or 720."
+        },
+        {
+          "question": "Each exterior angle of a regular polygon is 45 degrees. How many sides does it have?",
+          "answer": "8",
+          "distractors": [
+            "6",
+            "9",
+            "10"
+          ],
+          "explanation": "Exterior angles add up to 360 degrees, and 360 divided by 45 is 8."
+        },
+        {
+          "question": "The diagonals of a rhombus:",
+          "answer": "bisect each other at right angles",
+          "distractors": [
+            "are always equal",
+            "never bisect each other",
+            "always meet at 60 degrees"
+          ],
+          "explanation": "A rhombus's diagonals cut each other in half at 90 degrees; they are equal only in a square."
+        },
+        {
+          "question": "Parallelograms on the same base and between the same parallels are:",
+          "answer": "equal in area",
+          "distractors": [
+            "congruent",
+            "equal in perimeter",
+            "always rectangles"
+          ],
+          "explanation": "They have the same base and the same height, so their areas are equal."
+        },
+        {
+          "question": "What is the sum of the exterior angles of any convex polygon?",
+          "answer": "360 degrees",
+          "distractors": [
+            "180 degrees",
+            "540 degrees",
+            "it depends on the number of sides"
+          ],
+          "explanation": "Going once around any convex polygon turns through a full 360 degrees."
+        }
+      ]
+    },
+    {
+      "key": "circles",
+      "name": "Circles",
+      "synonyms": [
+        "circle",
+        "chords",
+        "chord properties",
+        "chord"
+      ],
+      "questions": [
+        {
+          "question": "The perpendicular from the centre of a circle to a chord:",
+          "answer": "bisects the chord",
+          "distractors": [
+            "trisects the chord",
+            "is equal to the radius",
+            "is parallel to the chord"
+          ],
+          "explanation": "The perpendicular from the centre divides the chord into two equal parts."
+        },
+        {
+          "question": "Equal chords of a circle are:",
+          "answer": "equidistant from the centre",
+          "distractors": [
+            "parallel to each other",
+            "always diameters",
+            "at different distances from the centre"
+          ],
+          "explanation": "Equal chords are the same distance from the centre, and the converse is also true."
+        },
+        {
+          "question": "A chord of a circle is 8 centimetres long and 3 centimetres from the centre. What is the radius?",
+          "answer": "5 centimetres",
+          "distractors": [
+            "4 centimetres",
+            "6 centimetres",
+            "11 centimetres"
+          ],
+          "explanation": "Half the chord is 4, so the radius is root of 4 squared plus 3 squared, which is 5."
+        },
+        {
+          "question": "The longest chord of a circle is the:",
+          "answer": "diameter",
+          "distractors": [
+            "radius",
+            "tangent",
+            "arc"
+          ],
+          "explanation": "The diameter passes through the centre and is the longest chord."
+        },
+        {
+          "question": "How many circles can pass through three points that are not in a straight line?",
+          "answer": "exactly one",
+          "distractors": [
+            "none",
+            "exactly two",
+            "infinitely many"
+          ],
+          "explanation": "Three non-collinear points fix exactly one circle."
+        }
+      ]
+    },
+    {
+      "key": "mensuration",
+      "name": "Mensuration",
+      "synonyms": [
+        "area and perimeter",
+        "surface area",
+        "volume",
+        "cuboid",
+        "cube",
+        "area"
+      ],
+      "questions": [
+        {
+          "question": "What is the area of a triangle with base 10 centimetres and height 6 centimetres?",
+          "answer": "30 square centimetres",
+          "distractors": [
+            "60 square centimetres",
+            "16 square centimetres",
+            "36 square centimetres"
+          ],
+          "explanation": "Area is half times base times height: half of 10 times 6 is 30."
+        },
+        {
+          "question": "What is the volume of a cube with edge 4 centimetres?",
+          "answer": "64 cubic centimetres",
+          "distractors": [
+            "16 cubic centimetres",
+            "48 cubic centimetres",
+            "96 cubic centimetres"
+          ],
+          "explanation": "Volume of a cube is edge cubed: 4 times 4 times 4 is 64."
+        },
+        {
+          "question": "What is the total surface area of a cube with edge 5 centimetres?",
+          "answer": "150 square centimetres",
+          "distractors": [
+            "125 square centimetres",
+            "100 square centimetres",
+            "25 square centimetres"
+          ],
+          "explanation": "A cube has 6 faces of 25 square centimetres each, which is 150."
+        },
+        {
+          "question": "A cuboid measures 5 centimetres by 4 centimetres by 3 centimetres. What is its volume?",
+          "answer": "60 cubic centimetres",
+          "distractors": [
+            "94 cubic centimetres",
+            "47 cubic centimetres",
+            "12 cubic centimetres"
+          ],
+          "explanation": "Volume is length times breadth times height: 5 times 4 times 3 is 60."
+        },
+        {
+          "question": "What is the perimeter of a rectangle 8 centimetres long and 5 centimetres wide?",
+          "answer": "26 centimetres",
+          "distractors": [
+            "13 centimetres",
+            "40 centimetres",
+            "18 centimetres"
+          ],
+          "explanation": "Perimeter is 2 times length plus breadth: 2 times 13 is 26."
+        }
+      ]
+    },
+    {
+      "key": "trigonometry",
+      "name": "Trigonometry",
+      "synonyms": [
+        "trigonometric ratios",
+        "trig",
+        "sin cos tan",
+        "trignometry"
+      ],
+      "questions": [
+        {
+          "question": "What is the value of sin 30 degrees?",
+          "answer": "one half",
+          "distractors": [
+            "root 3 by 2",
+            "1",
+            "0"
+          ],
+          "explanation": "sin 30 degrees is 1 by 2; root 3 by 2 is sin 60 degrees."
+        },
+        {
+          "question": "tan theta is equal to:",
+          "answer": "sin theta divided by cos theta",
+          "distractors": [
+            "cos theta divided by sin theta",
+            "sin theta times cos theta",
+            "1 divided by sin theta"
+          ],
+          "explanation": "tan is opposite over adjacent, which equals sin over cos."
+        },
+        {
+          "question": "What is the value of tan 45 degrees?",
+          "answer": "1",
+          "distractors": [
+            "0",
+            "root 3",
+            "1 by root 3"
+          ],
+          "explanation": "At 45 degrees the opposite and adjacent sides are equal, so tan is 1."
+        },
+        {
+          "question": "In a right triangle, the side opposite angle theta is 3 and the hypotenuse is 5. What is sin theta?",
+          "answer": "3 by 5",
+          "distractors": [
+            "4 by 5",
+            "3 by 4",
+            "5 by 3"
+          ],
+          "explanation": "sin is opposite over hypotenuse, which is 3 by 5."
+        },
+        {
+          "question": "What is the value of cos 60 degrees?",
+          "answer": "one half",
+          "distractors": [
+            "root 3 by 2",
+            "1",
+            "0"
+          ],
+          "explanation": "cos 60 degrees is 1 by 2, the same as sin 30 degrees."
+        }
+      ]
+    },
+    {
+      "key": "statistics",
+      "name": "Statistics",
+      "synonyms": [
+        "mean",
+        "median",
+        "data handling",
+        "frequency distribution",
+        "graphs",
+        "histogram"
+      ],
+      "questions": [
+        {
+          "question": "What is the mean of 2, 4, 6, 8 and 10?",
+          "answer": "6",
+          "distractors": [
+            "5",
+            "30",
+            "8"
+          ],
+          "explanation": "The total is 30, and 30 divided by 5 is 6."
+        },
+        {
+          "question": "What is the median of 3, 7, 1, 9 and 5?",
+          "answer": "5",
+          "distractors": [
+            "1",
+            "7",
+            "25"
+          ],
+          "explanation": "In order the numbers are 1, 3, 5, 7, 9, and the middle one is 5."
+        },
+        {
+          "question": "The difference between the upper and lower limits of a class interval is called the:",
+          "answer": "class size",
+          "distractors": [
+            "class mark",
+            "frequency",
+            "cumulative frequency"
+          ],
+          "explanation": "The class size, or width, is upper limit minus lower limit; the class mark is their average."
+        },
+        {
+          "question": "A graph of adjacent rectangles drawn for a continuous frequency distribution is a:",
+          "answer": "histogram",
+          "distractors": [
+            "bar graph",
+            "pie chart",
+            "line graph"
+          ],
+          "explanation": "In a histogram the bars touch because the classes are continuous."
+        },
+        {
+          "question": "What is the class mark of the class interval 10 to 20?",
+          "answer": "15",
+          "distractors": [
+            "10",
+            "20",
+            "30"
+          ],
+          "explanation": "The class mark is the average of the class limits: 10 plus 20, divided by 2."
+        }
+      ]
+    },
+    {
+      "key": "coordinate-geometry",
+      "name": "Coordinate Geometry",
+      "synonyms": [
+        "coordinates",
+        "distance formula",
+        "cartesian plane",
+        "coordinate",
+        "co-ordinate geometry"
+      ],
+      "questions": [
+        {
+          "question": "What is the distance between the points (0, 0) and (3, 4)?",
+          "answer": "5",
+          "distractors": [
+            "7",
+            "1",
+            "25"
+          ],
+          "explanation": "Distance is root of 3 squared plus 4 squared, which is root 25, or 5."
+        },
+        {
+          "question": "In which quadrant does the point (minus 2, 3) lie?",
+          "answer": "second quadrant",
+          "distractors": [
+            "first quadrant",
+            "third quadrant",
+            "fourth quadrant"
+          ],
+          "explanation": "x is negative and y is positive, which is the second quadrant."
+        },
+        {
+          "question": "The x-coordinate of any point on the y-axis is:",
+          "answer": "0",
+          "distractors": [
+            "1",
+            "equal to its y-coordinate",
+            "undefined"
+          ],
+          "explanation": "Every point on the y-axis has x equal to 0."
+        },
+        {
+          "question": "The point where the x-axis and the y-axis meet is called the:",
+          "answer": "origin",
+          "distractors": [
+            "vertex",
+            "centre",
+            "intercept"
+          ],
+          "explanation": "The axes meet at the origin, the point (0, 0)."
+        },
+        {
+          "question": "What is the distance of the point (5, 12) from the origin?",
+          "answer": "13",
+          "distractors": [
+            "17",
+            "7",
+            "60"
+          ],
+          "explanation": "Distance is root of 5 squared plus 12 squared, which is root 169, or 13."
+        }
+      ]
+    }
+  ]
+}

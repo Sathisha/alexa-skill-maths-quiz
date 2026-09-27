@@ -1,0 +1,320 @@
+{
+  "grade": 9,
+  "subject": "chemistry",
+  "topics": [
+    {
+      "key": "language-of-chemistry",
+      "name": "The Language of Chemistry",
+      "synonyms": [
+        "language of chemistry",
+        "symbols and formulae",
+        "valency",
+        "chemical equations",
+        "chemical formulae"
+      ],
+      "questions": [
+        {
+          "question": "What is the valency of oxygen in water?",
+          "answer": "2",
+          "distractors": [
+            "1",
+            "3",
+            "4"
+          ],
+          "explanation": "Oxygen combines with two hydrogen atoms, so its valency is 2."
+        },
+        {
+          "question": "Which gas has the formula C O 2?",
+          "answer": "carbon dioxide",
+          "distractors": [
+            "carbon monoxide",
+            "oxygen",
+            "methane"
+          ],
+          "explanation": "C O 2 is one carbon atom and two oxygen atoms, which is carbon dioxide."
+        },
+        {
+          "question": "A chemical equation is balanced so that it obeys the law of:",
+          "answer": "conservation of mass",
+          "distractors": [
+            "definite proportions",
+            "multiple proportions",
+            "conservation of momentum"
+          ],
+          "explanation": "Atoms are neither created nor destroyed, so both sides must have the same number of each atom."
+        },
+        {
+          "question": "What is the valency of the sulphate radical?",
+          "answer": "2",
+          "distractors": [
+            "1",
+            "3",
+            "4"
+          ],
+          "explanation": "Sulphate, S O 4, carries a charge of minus 2, so its valency is 2."
+        },
+        {
+          "question": "What is the chemical formula of water?",
+          "answer": "H 2 O",
+          "distractors": [
+            "H 2 O 2",
+            "H O",
+            "O 2"
+          ],
+          "explanation": "Water has two hydrogen atoms and one oxygen atom; H 2 O 2 is hydrogen peroxide."
+        }
+      ]
+    },
+    {
+      "key": "atomic-structure",
+      "name": "Atomic Structure and Chemical Bonding",
+      "synonyms": [
+        "atomic structure",
+        "atoms",
+        "structure of atom",
+        "chemical bonding",
+        "electronic configuration",
+        "isotopes"
+      ],
+      "questions": [
+        {
+          "question": "The atomic number of an element is the number of:",
+          "answer": "protons in its nucleus",
+          "distractors": [
+            "neutrons in its nucleus",
+            "protons and neutrons together",
+            "electron shells"
+          ],
+          "explanation": "Atomic number is the number of protons; protons plus neutrons is the mass number."
+        },
+        {
+          "question": "What is the electronic configuration of sodium, atomic number 11?",
+          "answer": "2, 8, 1",
+          "distractors": [
+            "2, 9",
+            "8, 2, 1",
+            "2, 1, 8"
+          ],
+          "explanation": "The first shell holds 2, the second holds 8, and the remaining 1 goes in the third shell."
+        },
+        {
+          "question": "Atoms of the same element with different mass numbers are called:",
+          "answer": "isotopes",
+          "distractors": [
+            "isobars",
+            "isomers",
+            "ions"
+          ],
+          "explanation": "Isotopes have the same number of protons but different numbers of neutrons."
+        },
+        {
+          "question": "Sodium chloride is formed by:",
+          "answer": "ionic bonding",
+          "distractors": [
+            "covalent bonding",
+            "metallic bonding",
+            "hydrogen bonding"
+          ],
+          "explanation": "Sodium gives an electron to chlorine, forming oppositely charged ions."
+        },
+        {
+          "question": "What is the maximum number of electrons the second shell can hold?",
+          "answer": "8",
+          "distractors": [
+            "2",
+            "18",
+            "32"
+          ],
+          "explanation": "A shell can hold 2 n squared electrons; for n equals 2 that is 8."
+        }
+      ]
+    },
+    {
+      "key": "periodic-table",
+      "name": "The Periodic Table",
+      "synonyms": [
+        "periodic table",
+        "groups and periods",
+        "mendeleev",
+        "modern periodic law",
+        "periodic law"
+      ],
+      "questions": [
+        {
+          "question": "The modern periodic law says the properties of elements are a periodic function of their:",
+          "answer": "atomic numbers",
+          "distractors": [
+            "atomic masses",
+            "densities",
+            "valencies"
+          ],
+          "explanation": "Moseley showed atomic number is the basis; Mendeleev had used atomic mass."
+        },
+        {
+          "question": "Elements in the same group have the same number of:",
+          "answer": "valence electrons",
+          "distractors": [
+            "electron shells",
+            "neutrons",
+            "protons"
+          ],
+          "explanation": "Same valence electrons give similar chemical properties; the same number of shells means the same period."
+        },
+        {
+          "question": "The elements of group 18 are called:",
+          "answer": "noble gases",
+          "distractors": [
+            "halogens",
+            "alkali metals",
+            "alkaline earth metals"
+          ],
+          "explanation": "Group 18 elements, like neon and argon, have full outer shells and are very unreactive."
+        },
+        {
+          "question": "How many periods are there in the modern periodic table?",
+          "answer": "7",
+          "distractors": [
+            "18",
+            "8",
+            "9"
+          ],
+          "explanation": "There are 7 horizontal periods and 18 vertical groups."
+        },
+        {
+          "question": "How many groups are there in the modern periodic table?",
+          "answer": "18",
+          "distractors": [
+            "7",
+            "8",
+            "16"
+          ],
+          "explanation": "There are 18 vertical groups and 7 horizontal periods."
+        }
+      ]
+    },
+    {
+      "key": "hydrogen",
+      "name": "Study of the First Element, Hydrogen",
+      "synonyms": [
+        "hydrogen",
+        "first element",
+        "preparation of hydrogen"
+      ],
+      "questions": [
+        {
+          "question": "Hydrogen is collected by the downward displacement of water because it is:",
+          "answer": "almost insoluble in water",
+          "distractors": [
+            "heavier than air",
+            "very soluble in water",
+            "a coloured gas"
+          ],
+          "explanation": "Since hydrogen barely dissolves in water, it can push the water out of an inverted jar."
+        },
+        {
+          "question": "Zinc reacts with dilute hydrochloric acid to give:",
+          "answer": "zinc chloride and hydrogen",
+          "distractors": [
+            "zinc oxide and hydrogen",
+            "zinc chloride and oxygen",
+            "zinc sulphate and hydrogen"
+          ],
+          "explanation": "The metal displaces hydrogen from the acid and forms the metal chloride."
+        },
+        {
+          "question": "Hydrogen burns in air with a:",
+          "answer": "pale blue flame",
+          "distractors": [
+            "bright yellow flame",
+            "green flame",
+            "red flame"
+          ],
+          "explanation": "Hydrogen burns with a pale blue flame, and a small amount burns with a pop sound."
+        },
+        {
+          "question": "Which metal is usually used with a dilute acid to prepare hydrogen in the laboratory?",
+          "answer": "granulated zinc",
+          "distractors": [
+            "copper",
+            "silver",
+            "gold"
+          ],
+          "explanation": "Copper, silver and gold are below hydrogen in the activity series and do not release it from dilute acids."
+        },
+        {
+          "question": "What is the test for hydrogen gas?",
+          "answer": "it burns with a pop sound",
+          "distractors": [
+            "it turns lime water milky",
+            "it relights a glowing splint",
+            "it turns moist blue litmus red"
+          ],
+          "explanation": "A burning splint makes hydrogen burn with a pop; lime water is the test for carbon dioxide."
+        }
+      ]
+    },
+    {
+      "key": "gas-laws",
+      "name": "Study of Gas Laws",
+      "synonyms": [
+        "gas laws",
+        "boyle's law",
+        "boyles law",
+        "charles's law",
+        "charles law"
+      ],
+      "questions": [
+        {
+          "question": "Boyle's law says that at constant temperature, the volume of a fixed mass of gas is:",
+          "answer": "inversely proportional to its pressure",
+          "distractors": [
+            "directly proportional to its pressure",
+            "independent of its pressure",
+            "directly proportional to its temperature"
+          ],
+          "explanation": "P times V is constant, so doubling the pressure halves the volume."
+        },
+        {
+          "question": "Charles's law relates the volume of a gas to its:",
+          "answer": "absolute temperature, at constant pressure",
+          "distractors": [
+            "pressure, at constant temperature",
+            "mass, at constant volume",
+            "density, at constant pressure"
+          ],
+          "explanation": "V divided by T is constant when pressure is fixed, with T in kelvin."
+        },
+        {
+          "question": "What is absolute zero on the Celsius scale?",
+          "answer": "minus 273 degrees Celsius",
+          "distractors": [
+            "0 degrees Celsius",
+            "minus 100 degrees Celsius",
+            "273 degrees Celsius"
+          ],
+          "explanation": "0 kelvin is minus 273 degrees Celsius, to the nearest degree."
+        },
+        {
+          "question": "Standard temperature and pressure, or S T P, means:",
+          "answer": "0 degrees Celsius and 760 millimetres of mercury",
+          "distractors": [
+            "25 degrees Celsius and 760 millimetres of mercury",
+            "100 degrees Celsius and 760 millimetres of mercury",
+            "0 degrees Celsius and 1 millimetre of mercury"
+          ],
+          "explanation": "S T P is 273 kelvin and 760 millimetres of mercury, which is one atmosphere."
+        },
+        {
+          "question": "What is 27 degrees Celsius on the kelvin scale?",
+          "answer": "300 kelvin",
+          "distractors": [
+            "246 kelvin",
+            "27 kelvin",
+            "327 kelvin"
+          ],
+          "explanation": "Add 273 to the Celsius temperature: 27 plus 273 is 300."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "grade": 10,
+  "subject": "chemistry",
+  "topics": [
+    {
+      "key": "periodic-properties",
+      "name": "Periodic Properties and Variations",
+      "synonyms": [
+        "periodic properties",
+        "atomic size",
+        "ionisation potential",
+        "electronegativity",
+        "electron affinity",
+        "periodic trends"
+      ],
+      "questions": [
+        {
+          "question": "Across a period from left to right, atomic size generally:",
+          "answer": "decreases",
+          "distractors": [
+            "increases",
+            "stays the same",
+            "first increases and then decreases"
+          ],
+          "explanation": "Nuclear charge increases across a period and pulls the electrons closer."
+        },
+        {
+          "question": "Down a group, metallic character:",
+          "answer": "increases",
+          "distractors": [
+            "decreases",
+            "stays the same",
+            "disappears"
+          ],
+          "explanation": "Atoms get larger down a group and lose electrons more easily."
+        },
+        {
+          "question": "Which is the most electronegative element?",
+          "answer": "fluorine",
+          "distractors": [
+            "oxygen",
+            "chlorine",
+            "nitrogen"
+          ],
+          "explanation": "Fluorine is small with a high nuclear charge, so it attracts shared electrons most strongly."
+        },
+        {
+          "question": "The energy needed to remove an electron from an isolated gaseous atom is called its:",
+          "answer": "ionisation potential",
+          "distractors": [
+            "electron affinity",
+            "electronegativity",
+            "atomic radius"
+          ],
+          "explanation": "Ionisation potential, or ionisation energy, is the energy to remove the outermost electron."
+        },
+        {
+          "question": "Down a group, ionisation potential:",
+          "answer": "decreases",
+          "distractors": [
+            "increases",
+            "stays the same",
+            "first decreases and then increases"
+          ],
+          "explanation": "The outer electrons are farther from the nucleus and easier to remove."
+        }
+      ]
+    },
+    {
+      "key": "acids-bases-salts",
+      "name": "Acids, Bases and Salts",
+      "synonyms": [
+        "acids",
+        "bases",
+        "salts",
+        "p H",
+        "alkalis",
+        "indicators",
+        "acids and bases"
+      ],
+      "questions": [
+        {
+          "question": "A solution with a p H of 3 is:",
+          "answer": "acidic",
+          "distractors": [
+            "alkaline",
+            "neutral",
+            "pure water"
+          ],
+          "explanation": "A p H below 7 is acidic, 7 is neutral, and above 7 is alkaline."
+        },
+        {
+          "question": "An acid reacts with a base to form:",
+          "answer": "a salt and water",
+          "distractors": [
+            "a salt and hydrogen",
+            "only water",
+            "oxygen and water"
+          ],
+          "explanation": "This is neutralisation."
+        },
+        {
+          "question": "Phenolphthalein turns pink in:",
+          "answer": "an alkaline solution",
+          "distractors": [
+            "an acidic solution",
+            "pure water",
+            "a neutral salt solution"
+          ],
+          "explanation": "Phenolphthalein is colourless in acidic and neutral solutions and pink in alkalis."
+        },
+        {
+          "question": "Which of these is an alkali?",
+          "answer": "sodium hydroxide",
+          "distractors": [
+            "copper oxide",
+            "hydrochloric acid",
+            "sodium chloride"
+          ],
+          "explanation": "An alkali is a base that dissolves in water; copper oxide is a base but insoluble."
+        },
+        {
+          "question": "What is the p H of pure water at room temperature?",
+          "answer": "7",
+          "distractors": [
+            "0",
+            "14",
+            "1"
+          ],
+          "explanation": "Pure water is neutral, and neutral means p H 7."
+        }
+      ]
+    },
+    {
+      "key": "mole-concept",
+      "name": "Mole Concept and Stoichiometry",
+      "synonyms": [
+        "mole concept",
+        "moles",
+        "mole",
+        "stoichiometry",
+        "avogadro's number",
+        "molar volume"
+      ],
+      "questions": [
+        {
+          "question": "Avogadro's number is approximately:",
+          "answer": "6.022 times 10 to the power 23",
+          "distractors": [
+            "6.022 times 10 to the power 22",
+            "3.011 times 10 to the power 23",
+            "22.4"
+          ],
+          "explanation": "One mole of any substance contains 6.022 times 10 to the power 23 particles."
+        },
+        {
+          "question": "What volume does one mole of any gas occupy at S T P?",
+          "answer": "22.4 litres",
+          "distractors": [
+            "11.2 litres",
+            "1 litre",
+            "6.022 litres"
+          ],
+          "explanation": "The molar volume of a gas at S T P is 22.4 litres."
+        },
+        {
+          "question": "How many moles are there in 36 grams of water?",
+          "answer": "2",
+          "distractors": [
+            "1",
+            "3",
+            "36"
+          ],
+          "explanation": "The molar mass of water is 18 grams, and 36 divided by 18 is 2."
+        },
+        {
+          "question": "What is the molar mass of carbon dioxide? Take carbon as 12 and oxygen as 16.",
+          "answer": "44 grams",
+          "distractors": [
+            "28 grams",
+            "32 grams",
+            "60 grams"
+          ],
+          "explanation": "C O 2 is 12 plus 2 times 16, which is 44."
+        },
+        {
+          "question": "How many moles of oxygen molecules are there in 64 grams of oxygen gas? Take oxygen as 16.",
+          "answer": "2",
+          "distractors": [
+            "4",
+            "1",
+            "64"
+          ],
+          "explanation": "An oxygen molecule, O 2, has a molar mass of 32 grams, and 64 divided by 32 is 2."
+        }
+      ]
+    },
+    {
+      "key": "electrolysis",
+      "name": "Electrolysis",
+      "synonyms": [
+        "electrolytes",
+        "electroplating",
+        "electrodes",
+        "anode and cathode"
+      ],
+      "questions": [
+        {
+          "question": "During electrolysis, positive ions, or cations, move towards the:",
+          "answer": "cathode",
+          "distractors": [
+            "anode",
+            "both electrodes equally",
+            "neither electrode"
+          ],
+          "explanation": "The cathode is the negative electrode, so it attracts positive ions."
+        },
+        {
+          "question": "Which of these is a strong electrolyte?",
+          "answer": "sodium chloride solution",
+          "distractors": [
+            "acetic acid",
+            "carbon tetrachloride",
+            "sugar solution"
+          ],
+          "explanation": "Sodium chloride ionises completely; acetic acid is weak; the other two are non-electrolytes."
+        },
+        {
+          "question": "When an article is electroplated with silver, the article is made the:",
+          "answer": "cathode",
+          "distractors": [
+            "anode",
+            "electrolyte",
+            "salt bridge"
+          ],
+          "explanation": "Silver ions are reduced and deposit on the cathode; a silver block is the anode."
+        },
+        {
+          "question": "During electrolysis, oxidation takes place at the:",
+          "answer": "anode",
+          "distractors": [
+            "cathode",
+            "electrolyte",
+            "power supply"
+          ],
+          "explanation": "Negative ions lose electrons at the anode, which is oxidation."
+        },
+        {
+          "question": "During the electrolysis of acidified water, which ions are discharged at the cathode?",
+          "answer": "hydrogen ions",
+          "distractors": [
+            "hydroxide ions",
+            "sulphate ions",
+            "chloride ions"
+          ],
+          "explanation": "Positive hydrogen ions gain electrons at the cathode and form hydrogen gas."
+        }
+      ]
+    },
+    {
+      "key": "organic-chemistry",
+      "name": "Organic Chemistry",
+      "synonyms": [
+        "hydrocarbons",
+        "alkanes",
+        "alkenes",
+        "alkynes",
+        "carbon compounds",
+        "homologous series"
+      ],
+      "questions": [
+        {
+          "question": "What is the general formula of the alkanes?",
+          "answer": "C n H 2 n plus 2",
+          "distractors": [
+            "C n H 2 n",
+            "C n H 2 n minus 2",
+            "C n H n"
+          ],
+          "explanation": "Alkanes are saturated; C n H 2 n is alkenes and C n H 2 n minus 2 is alkynes."
+        },
+        {
+          "question": "Consecutive members of a homologous series differ by:",
+          "answer": "a C H 2 group",
+          "distractors": [
+            "a C H 3 group",
+            "an O H group",
+            "two carbon atoms"
+          ],
+          "explanation": "Each member has one more C H 2 unit, which is 14 mass units, than the one before."
+        },
+        {
+          "question": "What is the first member of the alkene series?",
+          "answer": "ethene",
+          "distractors": [
+            "methane",
+            "ethane",
+            "ethyne"
+          ],
+          "explanation": "An alkene needs a carbon-carbon double bond, so the smallest has two carbons: ethene."
+        },
+        {
+          "question": "Which of these is an unsaturated hydrocarbon?",
+          "answer": "ethyne",
+          "distractors": [
+            "methane",
+            "ethane",
+            "propane"
+          ],
+          "explanation": "Ethyne has a triple bond; the others are alkanes with only single bonds."
+        },
+        {
+          "question": "What is the I U P A C name of the alkane with two carbon atoms?",
+          "answer": "ethane",
+          "distractors": [
+            "methane",
+            "ethene",
+            "propane"
+          ],
+          "explanation": "The prefix eth means two carbons and the ending ane means an alkane."
+        }
+      ]
+    }
+  ]
+}
